@@ -37,7 +37,7 @@ body{background:var(--dark);color:var(--text);font-family:'Inter',sans-serif;ove
 .nav-links a:hover{color:var(--gold);}
 .nav-links a:hover::after{width:100%;}
 .lang-pills{display:flex;gap:6px;}
-.lbtn{background:none;border:1px solid rgba(245,166,35,0.2);color:var(--muted);cursor:pointer;padding:5px 12px;border-radius:20px;font-size:.72rem;font-weight:600;letter-spacing:1px;font-family:'Inter',sans-serif;transition:all .3s;}
+.lbtn{background:none;border:1px solid rgba(0,180,210,0.25);color:var(--muted);cursor:pointer;padding:8px 18px;border-radius:20px;font-size:.75rem;font-weight:600;letter-spacing:1px;font-family:'Inter',sans-serif;transition:all .3s;}
 .lbtn.active,.lbtn:hover{background:var(--teal2);color:var(--dark);border-color:var(--teal2);}
 .hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;}
 .hamburger span{display:block;width:24px;height:2px;background:var(--gold);transition:all .3s;border-radius:2px;}
@@ -246,7 +246,9 @@ footer span{color:var(--gold);}
   <a href="#portfolio" onclick="toggleMenu()" data-en="Portfolio" data-es="Portfolio" data-pt="Portfólio">Portfolio</a>
   <a href="#testimonials" onclick="toggleMenu()" data-en="Testimonials" data-es="Testimonios" data-pt="Depoimentos">Testimonios</a>
   <a href="#contact" onclick="toggleMenu()" data-en="Contact" data-es="Contacto" data-pt="Contato">Contacto</a>
-  <div class="lang-pills" style="margin-top:10px;">
+  <div style="width:40px;height:1px;background:rgba(255,255,255,.1);margin:8px 0;"></div>
+  <p style="font-size:.65rem;letter-spacing:3px;text-transform:uppercase;color:var(--muted);margin-bottom:6px;" data-en="Language" data-es="Idioma" data-pt="Idioma">Idioma</p>
+  <div class="lang-pills">
     <button class="lbtn" onclick="setLang('en')">EN</button>
     <button class="lbtn active" onclick="setLang('es')">ES</button>
     <button class="lbtn" onclick="setLang('pt')">PT</button>
@@ -319,8 +321,8 @@ footer span{color:var(--gold);}
             <span class="stat-lbl" data-en="Revenue Generated" data-es="Ingresos Generados" data-pt="Receita Gerada">Ingresos Generados</span>
           </div>
           <div class="stat-card">
-            <span class="stat-num" data-target="200">0</span>
-            <span class="stat-lbl" data-en="Clients" data-es="Clientes" data-pt="Clientes">Clientes</span>
+            <span class="stat-num">10+</span>
+            <span class="stat-lbl" data-en="Years in Marketing" data-es="Años en Marketing" data-pt="Anos em Marketing">Años en Marketing</span>
           </div>
           <div class="stat-card">
             <span class="stat-num">7</span>
