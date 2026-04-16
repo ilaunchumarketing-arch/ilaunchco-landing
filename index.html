@@ -310,11 +310,7 @@ footer span{color:var(--gold);}
            data-pt="Ajudo negócios e empreendedores a identificar o modelo de negócio certo e implementar as estratégias que os ajudarão a escalar de forma previsível. Uso os mesmos métodos comprovados que me levaram do zero a sete dígitos em menos de 2 anos.">
           Ayudo a negocios y emprendedores a identificar el modelo de negocio correcto e implementar las estrategias que los ayudarán a escalar de manera predecible. Uso los mismos métodos probados que me llevaron de cero a siete cifras en menos de 2 años.
         </p>
-        <p data-en="I specialize in Meta ad campaigns, Google Ads management, AI integration, AI setup to streamline your business, and AI employee setup so your business produces more than ever. We work within your budget — tailored to your specific needs — all designed to help you scale faster."
-           data-es="Me especializo en campañas de Meta Ads, gestión de Google Ads, integración de IA, configuración de IA para optimizar tu negocio y configuración de empleados de IA para que tu negocio produzca más que nunca. Trabajamos con tu presupuesto, adaptado a tus necesidades específicas — todo diseñado para ayudarte a escalar más rápido."
-           data-pt="Sou especialista em campanhas Meta Ads, gestão de Google Ads, integração de IA, configuração de IA para otimizar seu negócio e configuração de funcionários de IA para que seu negócio produza mais do que nunca. Trabalhamos com seu orçamento, adaptado às suas necessidades específicas.">
-          Me especializo en campañas de Meta Ads, gestión de Google Ads, integración de IA, configuración de IA para optimizar tu negocio y configuración de empleados de IA para que tu negocio produzca más que nunca. Trabajamos con tu presupuesto, adaptado a tus necesidades específicas — todo diseñado para ayudarte a escalar más rápido.
-        </p>
+
         <div class="stats-row">
           <div class="stat-card">
             <span class="stat-num" style="font-size:1.6rem;">$6M+</span>
@@ -738,8 +734,21 @@ const co=new IntersectionObserver(entries=>entries.forEach(e=>{
     requestAnimationFrame(step);
     co.unobserve(el);
   }
-}),{threshold:.5});
-document.querySelectorAll('.stat-num').forEach(el=>co.observe(el));
+}),{threshold:.1,rootMargin:'0px 0px -50px 0px'});
+document.querySelectorAll('.stat-num[data-target]').forEach(el=>co.observe(el));
+// Also trigger on load if already visible
+window.addEventListener('load',()=>{
+  document.querySelectorAll('.stat-num[data-target]').forEach(el=>{
+    const rect=el.getBoundingClientRect();
+    if(rect.top<window.innerHeight){
+      const target=+el.getAttribute('data-target'),dur=2000;
+      let start=null;
+      function step(ts){if(!start)start=ts;const p=Math.min((ts-start)/dur,1);el.textContent=Math.floor(p*p*(3-2*p)*target);if(p<1)requestAnimationFrame(step);else el.textContent=target;}
+      requestAnimationFrame(step);
+      co.unobserve(el);
+    }
+  });
+});
 
 // FORM
 function submitForm(e){
