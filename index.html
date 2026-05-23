@@ -3,218 +3,129 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>David Medina — I Launch U</title>
+<title>David Medina — AI Implementation Expert | I Launch U</title>
+<meta name="description" content="David Medina installs AI + marketing systems that scale businesses to 7 figures. Self-taught founder who built his own past seven figures in 2 years — now he builds yours. Free AI audit."/>
+<meta name="keywords" content="AI implementation expert, AI systems for business, AI marketing automation, Meta Ads, Google Ads, SEO optimization, content creation, business coaching Tampa, scale business with AI, AI consultant, marketing systems, David Medina, I Launch U, AI agency Tampa"/>
+<meta name="author" content="David Medina — I Launch U"/>
+<meta name="robots" content="index, follow, max-image-preview:large"/>
+<link rel="canonical" href="https://ilaunchyou.com/"/>
+<meta name="theme-color" content="#F58A1F"/>
+
+<!-- Open Graph -->
+<meta property="og:title" content="David Medina — AI Implementation Expert | I Launch U"/>
+<meta property="og:description" content="The exact AI + marketing systems I used to build 7-figure businesses in under 2 years — now installed inside yours."/>
+<meta property="og:image" content="https://ilaunchyou.com/david-photo.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:url" content="https://ilaunchyou.com"/>
+<meta property="og:type" content="website"/>
+<meta property="og:locale" content="es_US"/>
+<meta property="og:locale:alternate" content="en_US"/>
+<meta property="og:locale:alternate" content="pt_BR"/>
+<meta property="og:site_name" content="I Launch U"/>
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="David Medina — AI Implementation Expert"/>
+<meta name="twitter:description" content="AI + marketing systems that scale businesses to 7 figures. Built by a self-taught founder who did it himself."/>
+<meta name="twitter:image" content="https://ilaunchyou.com/david-photo.jpg"/>
+
+<!-- Hreflang -->
+<link rel="alternate" hreflang="es" href="https://ilaunchyou.com/?lang=es"/>
+<link rel="alternate" hreflang="en" href="https://ilaunchyou.com/?lang=en"/>
+<link rel="alternate" hreflang="pt" href="https://ilaunchyou.com/?lang=pt"/>
+<link rel="alternate" hreflang="x-default" href="https://ilaunchyou.com/"/>
+
+<!-- Fonts + icons -->
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;0,900;1,400&display=swap" rel="stylesheet"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
-<style>
-:root{
-  --gold:#FF8C00;--gold2:#FFA500;--gold3:#CC6600;
-  --teal:#00c9d4;--teal2:#0891b2;--teal3:#0e7490;
-  --navy:#040d1a;
-  --dark:#040d1a;--dark2:#050f20;--dark3:#071428;--dark4:#091830;--dark5:#0b1c38;
-  --text:#e8f4ff;--muted:#7aa0c0;--white:#fff;
-  --glass:rgba(0,180,210,0.05);--glass-border:rgba(0,180,210,0.15);
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css"/>
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css"/>
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/fill/style.css"/>
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/duotone/style.css"/>
+
+<!-- JSON-LD Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://ilaunchyou.com/#david",
+      "name": "David Medina",
+      "url": "https://ilaunchyou.com",
+      "image": "https://ilaunchyou.com/david-photo.jpg",
+      "jobTitle": "AI Implementation Expert & Marketing Strategist",
+      "description": "Self-taught founder who scaled multiple businesses to seven figures in under 2 years. Installs AI + marketing systems for service businesses, e-commerce, and entrepreneurs across the US and LATAM.",
+      "knowsLanguage": ["English", "Spanish", "Portuguese"],
+      "knowsAbout": ["Artificial Intelligence Implementation", "Marketing Automation", "Meta Ads", "Google Ads", "SEO", "Content Strategy", "Business Scaling"],
+      "sameAs": ["https://instagram.com/i_launch_u"],
+      "worksFor": { "@id": "https://ilaunchyou.com/#org" }
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://ilaunchyou.com/#org",
+      "name": "I Launch U",
+      "url": "https://ilaunchyou.com",
+      "logo": "https://ilaunchyou.com/logo.jpg",
+      "image": "https://ilaunchyou.com/david-photo.jpg",
+      "telephone": "+1-239-310-2025",
+      "email": "david@ilaunchyou.com",
+      "priceRange": "$$",
+      "founder": { "@id": "https://ilaunchyou.com/#david" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "400 N Tampa St",
+        "addressLocality": "Tampa",
+        "addressRegion": "FL",
+        "postalCode": "33602",
+        "addressCountry": "US"
+      },
+      "areaServed": ["United States", "Latin America", "Brazil"],
+      "serviceType": ["AI Implementation", "Meta Ads Management", "Google Ads Management", "Website + SEO Optimization", "Content Creation & Management", "Professional Video & Photography"],
+      "sameAs": ["https://instagram.com/i_launch_u"]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an AI system for a business?",
+          "acceptedAnswer": { "@type": "Answer", "text": "An AI system is a set of automated tools and agents that capture leads, qualify them, follow up, close sales, and run operations 24/7 — without you having to be present." }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to know technology for this to work?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. You run your business. We design, install, and train the system. You only see the results." }
+        },
+        {
+          "@type": "Question",
+          "name": "How long until I see results?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Systems are typically live in 14–30 days. Marketing results — leads and sales — start showing in the first week after we launch campaigns." }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you work with any industry?",
+          "acceptedAnswer": { "@type": "Answer", "text": "I work with service businesses, e-commerce, education, healthcare, retail, and independent professionals. If your business has customers, AI + marketing applies." }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does it cost?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Every business is different. That's why we offer a free audit: we review your situation and build a custom plan — no commitment." }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you work in Spanish, English, and Portuguese?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. I serve clients in English, Spanish, and Portuguese across the US and Latin America." }
+        }
+      ]
+    }
+  ]
 }
-*{margin:0;padding:0;box-sizing:border-box;}
-html{scroll-behavior:smooth;}
-body{background:var(--dark);color:var(--text);font-family:'Inter',sans-serif;overflow-x:hidden;}
+</script>
 
-/* SCROLLBAR */
-::-webkit-scrollbar{width:4px;}
-::-webkit-scrollbar-track{background:var(--dark);}
-::-webkit-scrollbar-thumb{background:var(--teal3);border-radius:2px;}
-
-/* ── NAVBAR ── */
-#nav{position:fixed;top:0;width:100%;z-index:1000;padding:20px 4%;display:flex;align-items:center;justify-content:space-between;transition:all .4s;gap:10px;}
-#nav.scrolled{background:rgba(4,13,26,0.97);backdrop-filter:blur(20px);padding:14px 6%;border-bottom:1px solid var(--glass-border);box-shadow:0 4px 40px rgba(0,180,210,0.12);}
-.nav-logo{display:flex;align-items:center;gap:12px;text-decoration:none;}
-.nav-logo img{height:34px;border-radius:6px;flex-shrink:0;}
-.nav-logo span{font-family:'Playfair Display',serif;font-size:1.2rem;font-style:italic;background:linear-gradient(135deg,var(--teal),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;white-space:nowrap;}
-.nav-links{display:flex;align-items:center;gap:35px;list-style:none;}
-.nav-links a{color:var(--muted);text-decoration:none;font-size:.8rem;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;position:relative;transition:color .3s;}
-.nav-links a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:1px;background:var(--gold);transition:width .3s;}
-.nav-links a:hover{color:var(--gold);}
-.nav-links a:hover::after{width:100%;}
-.lang-pills{display:flex;gap:6px;}
-.lbtn{background:none;border:1px solid rgba(0,180,210,0.25);color:var(--muted);cursor:pointer;padding:8px 18px;border-radius:20px;font-size:.75rem;font-weight:600;letter-spacing:1px;font-family:'Inter',sans-serif;transition:all .3s;}
-.lbtn.active,.lbtn:hover{background:var(--teal2);color:var(--dark);border-color:var(--teal2);}
-.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;}
-.hamburger span{display:block;width:24px;height:2px;background:var(--gold);transition:all .3s;border-radius:2px;}
-
-/* MOBILE MENU */
-#mmenu{display:none;position:fixed;inset:0;background:rgba(5,5,5,.97);z-index:999;flex-direction:column;align-items:center;justify-content:center;gap:28px;}
-#mmenu.open{display:flex;}
-#mmenu a{color:var(--text);text-decoration:none;font-size:1.3rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;transition:color .3s;}
-#mmenu a:hover{color:var(--gold);}
-.mclose{position:absolute;top:24px;right:6%;background:none;border:none;color:var(--gold);font-size:1.8rem;cursor:pointer;}
-
-/* ── HERO ── */
-#hero{position:relative;min-height:100vh;display:flex;align-items:center;justify-content:flex-start;padding:120px 6% 100px;text-align:left;overflow:hidden;background:radial-gradient(ellipse at 30% 60%,rgba(13,110,133,.25) 0%,transparent 60%),radial-gradient(ellipse at 80% 20%,rgba(255,140,0,.08) 0%,transparent 50%),linear-gradient(160deg,#040d1a 0%,#051628 50%,#040d1a 100%);}
-#heroCanvas{position:absolute;inset:0;z-index:0;}
-.hero-orb{position:absolute;border-radius:50%;filter:blur(80px);animation:orb-pulse 6s ease-in-out infinite alternate;pointer-events:none;}
-.orb1{width:600px;height:600px;background:radial-gradient(circle,rgba(13,110,133,.2),transparent 70%);top:-50px;left:-150px;animation-delay:0s;}
-.orb2{width:500px;height:500px;background:radial-gradient(circle,rgba(13,110,133,.15),transparent 70%);bottom:-100px;right:-100px;animation-delay:3s;}
-.orb3{width:400px;height:400px;background:radial-gradient(circle,rgba(255,140,0,.06),transparent 70%);top:30%;right:10%;animation-delay:1.5s;}
-@keyframes orb-pulse{0%{opacity:.5;transform:scale(1);}100%{opacity:1;transform:scale(1.15);}}
-.hero-content{position:relative;z-index:2;max-width:700px;padding:0 20px;text-align:left;}
-.hero-badge{display:inline-block;border:1px solid rgba(255,140,0,.3);background:rgba(255,140,0,.08);color:var(--gold);padding:6px 16px;border-radius:4px;font-size:.65rem;letter-spacing:3px;text-transform:uppercase;font-weight:600;margin-bottom:20px;backdrop-filter:blur(10px);max-width:100%;white-space:normal;word-break:break-word;}
-.hero-name{font-family:'Inter',sans-serif;font-size:clamp(2.4rem,6vw,5rem);font-weight:900;line-height:1.1;margin-bottom:20px;color:#fff;text-transform:uppercase;letter-spacing:-1px;text-align:left;}
-.hero-name span{color:var(--gold);}
-.hero-typewriter{font-size:clamp(.85rem,2.5vw,1.2rem);color:var(--gold);font-weight:600;letter-spacing:2px;text-transform:uppercase;min-height:1.8rem;margin-bottom:20px;overflow:hidden;white-space:nowrap;}
-.hero-tagline{font-size:clamp(.9rem,2vw,1.05rem);color:var(--muted);max-width:560px;margin:0 auto 45px;line-height:1.8;}
-.hero-btns{display:flex;gap:14px;justify-content:flex-start;flex-wrap:wrap;}
-.btn-gold{display:inline-block;background:linear-gradient(135deg,var(--gold),var(--gold3));color:var(--dark);padding:16px 40px;border-radius:50px;text-decoration:none;font-weight:700;font-size:.85rem;letter-spacing:2px;text-transform:uppercase;transition:all .3s;border:none;cursor:pointer;position:relative;overflow:hidden;box-shadow:0 8px 30px rgba(245,166,35,.3);}
-.btn-gold::after{content:'';position:absolute;top:-50%;left:-60%;width:40%;height:200%;background:rgba(255,255,255,.2);transform:skewX(-20deg);transition:left .5s;}
-.btn-gold:hover::after{left:120%;}
-.btn-gold:hover{transform:translateY(-3px);box-shadow:0 16px 40px rgba(245,166,35,.5);}
-.btn-outline{display:inline-block;background:transparent;color:var(--gold);padding:15px 38px;border-radius:50px;text-decoration:none;font-weight:700;font-size:.85rem;letter-spacing:2px;text-transform:uppercase;transition:all .3s;border:1px solid var(--glass-border);}
-.btn-outline:hover{background:rgba(245,166,35,.08);border-color:var(--gold);transform:translateY(-3px);}
-.hero-scroll{position:absolute;bottom:20px;left:50%;transform:translateX(-50%);z-index:2;display:flex;flex-direction:column;align-items:center;gap:6px;}
-.hero-scroll span{font-size:.65rem;letter-spacing:3px;text-transform:uppercase;color:var(--muted);}
-.scroll-arrow{width:24px;height:24px;border-right:1px solid var(--gold);border-bottom:1px solid var(--gold);transform:rotate(45deg);animation:scroll-bounce 2s infinite;}
-@keyframes scroll-bounce{0%,100%{transform:rotate(45deg) translateY(0);opacity:1;}50%{transform:rotate(45deg) translateY(6px);opacity:.4;}}
-
-/* ── SECTION SHARED ── */
-.sec{padding:110px 6%;}
-.sec-inner{max-width:1200px;margin:0 auto;}
-.sec-label{font-size:.7rem;letter-spacing:5px;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:12px;}
-.sec-title{font-family:'Playfair Display',serif;font-size:clamp(2rem,5vw,3.2rem);color:var(--white);margin-bottom:16px;line-height:1.15;}
-.sec-title span{background:linear-gradient(135deg,var(--teal),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
-.sec-line{width:50px;height:2px;background:linear-gradient(90deg,var(--teal2),transparent);border-radius:2px;margin-bottom:50px;}
-.sec-line.center{margin-left:auto;margin-right:auto;}
-.text-center{text-align:center;}
-
-/* ── ABOUT ── */
-#about{background:var(--dark2);}
-.about-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:80px;align-items:center;}
-.photo-wrap{position:relative;display:flex;justify-content:center;}
-.photo-hex{position:relative;width:380px;height:380px;}
-.photo-hex::before{content:'';position:absolute;inset:-3px;background:linear-gradient(135deg,var(--gold),var(--gold3),transparent,var(--gold));border-radius:30% 70% 70% 30%/30% 30% 70% 70%;animation:border-rotate 8s linear infinite;z-index:0;}
-@keyframes border-rotate{0%{border-radius:30% 70% 70% 30%/30% 30% 70% 70%;}25%{border-radius:58% 42% 75% 25%/76% 46% 54% 24%;}50%{border-radius:50% 50% 33% 67%/55% 27% 73% 45%;}75%{border-radius:33% 67% 58% 42%/63% 68% 32% 37%;}100%{border-radius:30% 70% 70% 30%/30% 30% 70% 70%;}}
-.photo-inner{position:relative;z-index:1;width:100%;height:100%;border-radius:30% 70% 70% 30%/30% 30% 70% 70%;overflow:hidden;background:linear-gradient(135deg,#1a0f00,#050505);}
-.photo-inner img{width:100%;height:100%;object-fit:cover;object-position:top;mix-blend-mode:screen;filter:brightness(1.1) contrast(1.1);}
-.photo-badge{position:absolute;bottom:-20px;right:-20px;background:linear-gradient(135deg,var(--gold),var(--gold3));color:var(--dark);padding:14px 20px;border-radius:16px;font-weight:700;font-size:.8rem;text-align:center;z-index:2;box-shadow:0 8px 30px rgba(245,166,35,.4);}
-.photo-badge span{display:block;font-size:1.4rem;font-family:'Playfair Display',serif;}
-.about-text .sec-label,.about-text .sec-title,.about-text .sec-line{text-align:left;}
-.about-text p{color:var(--muted);line-height:1.9;margin-bottom:18px;font-size:.95rem;}
-.stats-row{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:36px;}
-.stat-card{background:var(--glass);border:1px solid var(--glass-border);border-radius:16px;padding:22px 16px;text-align:center;backdrop-filter:blur(10px);transition:all .3s;}
-.stat-card:hover{border-color:rgba(245,166,35,.4);transform:translateY(-4px);}
-.stat-num{font-family:'Playfair Display',serif;font-size:2.2rem;background:linear-gradient(135deg,var(--teal),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;font-weight:700;display:block;}
-.stat-lbl{font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:2px;margin-top:4px;}
-
-/* ── CLIENTS LOGO BAR ── */
-#clients{background:var(--dark3);padding:50px 6%;border-top:1px solid rgba(245,166,35,.05);border-bottom:1px solid rgba(245,166,35,.05);}
-.clients-label{text-align:center;font-size:.7rem;letter-spacing:4px;text-transform:uppercase;color:var(--muted);margin-bottom:30px;}
-.logos-row{display:flex;align-items:center;justify-content:center;gap:50px;flex-wrap:wrap;}
-.logos-row img{height:50px;object-fit:contain;filter:grayscale(1) brightness(0.6);transition:all .3s;opacity:.6;}
-.logos-row img:hover{filter:grayscale(0) brightness(1);opacity:1;}
-
-/* ── SERVICES ── */
-#services{background:var(--dark);position:relative;overflow:hidden;}
-#services::before{content:'';position:absolute;inset:0;background-image:repeating-linear-gradient(45deg,rgba(245,166,35,.02) 0,rgba(245,166,35,.02) 1px,transparent 0,transparent 50%);background-size:30px 30px;}
-.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
-.svc-card{background:var(--dark4);border:1px solid rgba(245,166,35,.06);border-radius:20px;padding:36px 28px;transition:all .4s;position:relative;overflow:hidden;}
-.svc-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--teal),var(--teal2),transparent);transform:scaleX(0);transform-origin:left;transition:transform .4s;}
-.svc-card:hover{transform:translateY(-10px);border-color:rgba(0,180,210,.2);background:var(--dark5);}
-.svc-card:hover::before{transform:scaleX(1);}
-.svc-icon{width:56px;height:56px;background:linear-gradient(135deg,rgba(0,180,210,.15),rgba(0,180,210,.05));border:1px solid rgba(0,180,210,.2);border-radius:14px;display:flex;align-items:center;justify-content:center;margin-bottom:22px;}
-.svc-icon i{color:var(--teal);font-size:1.3rem;}
-.svc-card h3{color:var(--white);font-size:1rem;font-weight:700;margin-bottom:12px;letter-spacing:.5px;}
-.svc-card p{color:var(--muted);font-size:.85rem;line-height:1.75;}
-
-/* ── PORTFOLIO ── */
-#portfolio{background:var(--dark2);}
-.port-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
-.port-card{border-radius:20px;overflow:hidden;position:relative;aspect-ratio:4/3;cursor:pointer;}
-.port-card:hover .port-overlay{opacity:1;}
-.port-card:hover .port-bg{transform:scale(1.05);}
-.port-bg{width:100%;height:100%;transition:transform .5s;display:flex;align-items:center;justify-content:center;padding:30px;}
-.port-bg img{max-width:70%;max-height:70%;object-fit:contain;filter:drop-shadow(0 4px 20px rgba(0,0,0,.5));}
-.port-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(5,5,5,.97) 0%,rgba(5,5,5,.7) 100%);display:flex;flex-direction:column;justify-content:flex-end;padding:28px;opacity:0;transition:opacity .4s;}
-.port-tag{display:inline-block;background:rgba(0,180,210,.15);border:1px solid rgba(0,180,210,.3);color:var(--teal);padding:4px 12px;border-radius:20px;font-size:.7rem;letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;width:fit-content;}
-.port-overlay h3{color:var(--white);font-size:1.05rem;font-weight:700;margin-bottom:6px;}
-.port-overlay p{color:var(--muted);font-size:.82rem;line-height:1.6;margin-bottom:14px;}
-.port-link{color:var(--teal);font-size:.8rem;font-weight:600;text-decoration:none;letter-spacing:1px;}
-.port-link:hover{text-decoration:underline;}
-
-/* ── TESTIMONIALS ── */
-#testimonials{background:var(--dark3);position:relative;overflow:hidden;}
-#testimonials::before{content:'';position:absolute;inset:0;background-image:radial-gradient(rgba(245,166,35,.04) 1px,transparent 1px);background-size:24px 24px;}
-.testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
-.testi-card{background:var(--dark4);border:1px solid rgba(245,166,35,.07);border-radius:20px;padding:36px 30px;position:relative;overflow:hidden;transition:all .3s;}
-.testi-card:hover{border-color:rgba(0,180,210,.2);transform:translateY(-6px);}
-.testi-quote{font-family:'Playfair Display',serif;font-size:6rem;color:var(--teal2);opacity:.12;line-height:1;position:absolute;top:10px;right:20px;font-style:italic;}
-.stars{color:var(--gold);font-size:.85rem;margin-bottom:16px;letter-spacing:2px;}
-.testi-text{color:var(--muted);font-size:.88rem;line-height:1.8;font-style:italic;margin-bottom:24px;position:relative;z-index:1;}
-.testi-author{display:flex;align-items:center;gap:14px;}
-.testi-avatar{width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--gold),var(--gold3));display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--dark);font-size:1.1rem;flex-shrink:0;}
-.testi-info h4{color:var(--white);font-size:.9rem;font-weight:700;}
-.testi-info span{color:var(--muted);font-size:.78rem;}
-
-/* ── CONTACT ── */
-#contact{background:var(--dark2);}
-.contact-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:70px;align-items:start;}
-.contact-left h2{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,4vw,2.8rem);color:var(--white);margin-bottom:14px;line-height:1.2;}
-.contact-left h2 span{background:linear-gradient(135deg,var(--teal),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
-.contact-left p{color:var(--muted);font-size:.9rem;line-height:1.8;margin-bottom:36px;}
-.cinfo-item{display:flex;align-items:center;gap:16px;margin-bottom:22px;}
-.cinfo-icon{width:46px;height:46px;flex-shrink:0;background:rgba(0,180,210,.08);border:1px solid rgba(0,180,210,.15);border-radius:12px;display:flex;align-items:center;justify-content:center;}
-.cinfo-icon i{color:var(--teal);font-size:.95rem;}
-.cinfo-text h4{color:var(--white);font-size:.85rem;font-weight:600;}
-.cinfo-text p{color:var(--muted);font-size:.83rem;}
-.social-row{display:flex;gap:12px;margin-top:28px;}
-.s-link{width:44px;height:44px;border:1px solid rgba(0,180,210,.15);border-radius:12px;display:flex;align-items:center;justify-content:center;color:var(--teal);text-decoration:none;font-size:.95rem;transition:all .3s;background:rgba(245,166,35,.05);}
-.s-link:hover{background:var(--teal2);color:var(--dark);border-color:var(--teal2);}
-.contact-form-wrap{}
-.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
-.fg{margin-bottom:16px;}
-.fg input,.fg textarea{width:100%;background:rgba(255,255,255,.03);border:1px solid rgba(245,166,35,.12);border-radius:12px;padding:14px 18px;color:var(--text);font-family:'Inter',sans-serif;font-size:.88rem;transition:all .3s;outline:none;}
-.fg input:focus,.fg textarea:focus{border-color:var(--teal2);background:rgba(0,180,210,.04);box-shadow:0 0 0 3px rgba(0,180,210,.08);}
-.fg input::placeholder,.fg textarea::placeholder{color:var(--muted);}
-.fg textarea{height:130px;resize:vertical;}
-
-/* ── FOOTER ── */
-footer{background:var(--dark);border-top:1px solid rgba(0,180,210,.1);padding:36px 6%;text-align:center;}
-footer .f-logo{font-family:'Playfair Display',serif;font-size:1.3rem;font-style:italic;background:linear-gradient(135deg,var(--gold),var(--gold2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:8px;}
-footer p{color:var(--muted);font-size:.82rem;}
-footer span{color:var(--gold);}
-
-/* ── ANIMATIONS ── */
-.reveal{opacity:0;transform:translateY(40px);transition:opacity .7s ease,transform .7s ease;}
-.reveal.show{opacity:1;transform:translateY(0);}
-.reveal-d1{transition-delay:.1s;}
-.reveal-d2{transition-delay:.2s;}
-.reveal-d3{transition-delay:.3s;}
-.reveal-d4{transition-delay:.4s;}
-.reveal-d5{transition-delay:.5s;}
-.reveal-d6{transition-delay:.6s;}
-
-/* ── RESPONSIVE ── */
-@media(max-width:1024px){
-  .services-grid,.port-grid,.testi-grid{grid-template-columns:repeat(2,1fr);}
-  .about-grid{gap:50px;}
-}
-@media(max-width:768px){
-  .nav-links,.lang-pills{display:none;}
-  .hamburger{display:flex;}
-  .about-grid,.contact-grid{grid-template-columns:1fr;}
-  .photo-wrap{margin-bottom:40px;}
-  #hero{padding:100px 5% 80px;}
-  .photo-hex{width:260px;height:260px;margin:0 auto;}
-  .services-grid,.testi-grid{grid-template-columns:1fr;}
-  .port-grid{grid-template-columns:repeat(2,1fr);}
-  .form-row{grid-template-columns:1fr;}
-  .sec{padding:80px 5%;}
-  .stats-row{grid-template-columns:repeat(3,1fr);}
-}
-@media(max-width:480px){
-  .port-grid{grid-template-columns:1fr;}
-  .hero-btns{flex-direction:column;align-items:flex-start;}
-}
-</style>
-<!-- Facebook Pixel + CAPI -->
+<!-- Facebook Pixel -->
 <script>
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -229,40 +140,1232 @@ fbq('track', 'PageView');
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=734106759674043&ev=PageView&noscript=1"
 /></noscript>
+<style>
+/* ── DESIGN TOKENS ── */
+:root {
+  --brand:     #F58A1F;
+  --brand2:    #D97010;
+  --brand3:    #B85E0A;
+  --brand-glow:rgba(245,138,31,.18);
+  --cyan:      #4DD4FF;
+  --cyan-soft: rgba(77,212,255,.18);
+  --bg:        #030912;
+  --bg2:       #060e1e;
+  --bg3:       #081528;
+  --bg4:       #0a1830;
+  --surface:   rgba(255,255,255,.03);
+  --surface2:  rgba(255,255,255,.055);
+  --border:    rgba(255,255,255,.07);
+  --border-o:  rgba(245,138,31,.18);
+  --text:      #f0f4ff;
+  --text2:     #8ba3c4;
+  --white:     #ffffff;
+  --glass:     rgba(8,21,40,.6);
+  --glass-blur:blur(20px);
+  --radius:    20px;
+  --radius-sm: 12px;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+/* ── RESET ── */
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family:'Inter',sans-serif;
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+img{display:block;max-width:100%;}
+a{color:inherit;text-decoration:none;}
+button{font-family:inherit;cursor:pointer;}
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar{width:3px;}
+::-webkit-scrollbar-track{background:var(--bg);}
+::-webkit-scrollbar-thumb{background:var(--brand);border-radius:2px;}
+
+/* ── SCROLL PROGRESS ── */
+#progress-bar{
+  position:fixed;top:0;left:0;height:2px;width:0%;
+  background:linear-gradient(90deg,var(--brand),var(--cyan));
+  z-index:2000;transition:width .1s linear;
+  box-shadow:0 0 8px rgba(245,138,31,.5);
+}
+
+/* ── CURSOR GLOW ── */
+#cursor-glow{
+  position:fixed;pointer-events:none;z-index:0;
+  width:600px;height:600px;border-radius:50%;
+  background:radial-gradient(circle,rgba(245,138,31,.08) 0%,transparent 70%);
+  transform:translate(-50%,-50%);
+  transition:transform .08s linear;
+}
+
+/* ── NAVBAR ── */
+#nav{
+  position:fixed;top:0;width:100%;z-index:1000;
+  padding:22px 5%;display:flex;align-items:center;
+  justify-content:space-between;transition:padding .4s var(--ease-out-expo),
+  background .4s,border-color .4s;gap:12px;
+}
+#nav.scrolled{
+  background:rgba(3,9,18,.88);
+  backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);
+  padding:14px 5%;
+  border-bottom:1px solid var(--border);
+  box-shadow:0 4px 40px rgba(0,0,0,.5);
+}
+.nav-logo{display:flex;align-items:center;gap:10px;flex-shrink:0;}
+.nav-logo-icon{
+  width:36px;height:36px;border-radius:50%;
+  background:var(--brand);display:flex;align-items:center;
+  justify-content:center;flex-shrink:0;
+  box-shadow:0 0 24px rgba(245,138,31,.45);
+}
+.nav-logo-icon svg{width:22px;height:22px;}
+.nav-logo-text{
+  font-family:'Inter',sans-serif;font-weight:800;font-size:.9rem;
+  letter-spacing:2px;text-transform:uppercase;color:var(--white);
+}
+.nav-links{display:flex;align-items:center;gap:28px;list-style:none;}
+.nav-links a{
+  color:var(--text2);font-size:.72rem;font-weight:600;
+  letter-spacing:1.5px;text-transform:uppercase;position:relative;
+  transition:color .25s;
+}
+.nav-links a::after{
+  content:'';position:absolute;bottom:-4px;left:0;width:0;height:1px;
+  background:var(--brand);transition:width .3s var(--ease-out-expo);
+}
+.nav-links a:hover{color:var(--brand);}
+.nav-links a:hover::after{width:100%;}
+.nav-right{display:flex;align-items:center;gap:10px;}
+.lang-pills{display:flex;gap:4px;}
+.lbtn{
+  background:none;border:1px solid var(--border);
+  color:var(--text2);cursor:pointer;padding:6px 14px;
+  border-radius:20px;font-size:.7rem;font-weight:700;
+  letter-spacing:1px;text-transform:uppercase;
+  transition:all .25s;
+}
+.lbtn.active,.lbtn:hover{
+  background:var(--brand);color:var(--bg);
+  border-color:var(--brand);
+}
+.hamburger{
+  display:none;flex-direction:column;gap:5px;
+  cursor:pointer;background:none;border:none;padding:4px;
+}
+.hamburger span{
+  display:block;width:22px;height:1.5px;
+  background:var(--text);transition:all .3s;border-radius:2px;
+}
+
+/* ── MOBILE MENU ── */
+#mmenu{
+  display:none;position:fixed;inset:0;
+  background:rgba(3,9,18,.98);
+  backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+  z-index:999;flex-direction:column;align-items:center;
+  justify-content:center;gap:24px;
+}
+#mmenu.open{display:flex;}
+#mmenu a{
+  color:var(--text);font-size:1.15rem;font-weight:700;
+  letter-spacing:2px;text-transform:uppercase;
+  transition:color .25s;
+}
+#mmenu a:hover{color:var(--brand);}
+.mclose{
+  position:absolute;top:22px;right:5%;
+  background:none;border:none;color:var(--text2);
+  font-size:1.5rem;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  width:40px;height:40px;border-radius:50%;
+  border:1px solid var(--border);transition:all .25s;
+}
+.mclose:hover{border-color:var(--brand);color:var(--brand);}
+.m-divider{width:36px;height:1px;background:var(--border);}
+
+/* ── HERO ── */
+#hero{
+  position:relative;min-height:100vh;
+  display:flex;align-items:center;
+  padding:140px 5% 100px;overflow:hidden;
+  background:var(--bg);
+}
+/* Aurora animated background — multi-blob breathing */
+.aurora{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none;}
+.aurora::before,.aurora::after,.aurora-blob{
+  content:'';position:absolute;border-radius:50%;
+  filter:blur(80px);opacity:.55;
+  animation:aurora-breathe 14s ease-in-out infinite alternate;
+}
+.aurora::before{
+  width:780px;height:780px;
+  background:radial-gradient(circle,rgba(245,138,31,.45),transparent 60%);
+  top:-180px;left:-160px;
+}
+.aurora::after{
+  width:680px;height:680px;
+  background:radial-gradient(circle,rgba(77,212,255,.25),transparent 60%);
+  bottom:-160px;right:-120px;
+  animation-delay:-7s;animation-duration:18s;
+}
+.aurora-blob{
+  width:520px;height:520px;
+  background:radial-gradient(circle,rgba(245,138,31,.20),transparent 60%);
+  top:30%;right:18%;
+  animation-delay:-3s;animation-duration:12s;
+}
+@keyframes aurora-breathe{
+  0%{transform:translate(0,0) scale(1);}
+  100%{transform:translate(60px,40px) scale(1.18);}
+}
+/* Hero grid */
+.hero-grid{
+  position:absolute;inset:0;z-index:0;pointer-events:none;
+  background-image:
+    linear-gradient(rgba(245,138,31,.04) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(245,138,31,.04) 1px,transparent 1px);
+  background-size:80px 80px;
+  -webkit-mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,#000 20%,transparent 100%);
+  mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,#000 20%,transparent 100%);
+}
+/* Particle field */
+.hero-particles{position:absolute;inset:0;z-index:0;pointer-events:none;}
+.hero-particles span{
+  position:absolute;width:3px;height:3px;border-radius:50%;
+  background:var(--brand);opacity:.6;
+  box-shadow:0 0 12px rgba(245,138,31,.7);
+  animation:particle-rise linear infinite;
+}
+@keyframes particle-rise{
+  0%{transform:translateY(100vh) translateX(0);opacity:0;}
+  10%{opacity:.7;}
+  90%{opacity:.7;}
+  100%{transform:translateY(-20vh) translateX(40px);opacity:0;}
+}
+/* Trajectory SVG */
+.hero-trajectory{
+  position:absolute;right:6%;top:14%;width:40%;
+  z-index:1;pointer-events:none;opacity:0;
+  animation:traj-reveal 1.8s var(--ease-out-expo) .6s forwards;
+}
+@keyframes traj-reveal{
+  0%{opacity:0;transform:translateY(20px);}
+  100%{opacity:1;transform:translateY(0);}
+}
+.hero-content{position:relative;z-index:2;max-width:720px;}
+.hero-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  border:1px solid var(--border-o);
+  background:rgba(245,138,31,.08);
+  color:var(--brand);padding:7px 16px;border-radius:6px;
+  font-size:.64rem;letter-spacing:3.5px;text-transform:uppercase;
+  font-weight:700;margin-bottom:28px;
+  clip-path:inset(0 100% 0 0);
+  animation:clip-in .8s var(--ease-out-expo) .2s forwards;
+  box-shadow:inset 0 0 20px rgba(245,138,31,.08);
+}
+.hero-eyebrow i{font-size:.78rem;}
+.hero-eyebrow .live-dot{
+  width:7px;height:7px;border-radius:50%;
+  background:var(--brand);
+  box-shadow:0 0 0 0 rgba(245,138,31,.6);
+  animation:pulse-dot 2s ease-out infinite;
+}
+@keyframes pulse-dot{
+  0%{box-shadow:0 0 0 0 rgba(245,138,31,.6);}
+  100%{box-shadow:0 0 0 10px rgba(245,138,31,0);}
+}
+@keyframes clip-in{to{clip-path:inset(0 0% 0 0);}}
+.hero-headline{
+  font-family:'Playfair Display',serif;
+  font-size:clamp(2.8rem,6.6vw,5.6rem);
+  font-weight:900;line-height:1.04;
+  color:var(--white);
+  margin-bottom:24px;
+  opacity:0;transform:translateY(50px);
+  animation:fade-up .9s var(--ease-out-expo) .35s forwards;
+  letter-spacing:-1px;
+}
+.hero-headline .accent{
+  font-style:italic;
+  background:linear-gradient(135deg,var(--brand),#ffb56b 60%,var(--brand2));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  background-clip:text;
+  filter:drop-shadow(0 4px 20px rgba(245,138,31,.35));
+}
+.hero-sub{
+  font-size:clamp(.95rem,1.8vw,1.08rem);
+  color:var(--text2);line-height:1.75;
+  max-width:560px;margin-bottom:40px;
+  opacity:0;transform:translateY(30px);
+  animation:fade-up .9s var(--ease-out-expo) .5s forwards;
+}
+.hero-sub strong{color:var(--white);font-weight:600;}
+@keyframes fade-up{to{opacity:1;transform:translateY(0);}}
+.hero-btns{
+  display:flex;gap:12px;flex-wrap:wrap;margin-bottom:48px;
+  opacity:0;transform:translateY(20px);
+  animation:fade-up .8s var(--ease-out-expo) .65s forwards;
+}
+/* Primary CTA */
+.btn-primary{
+  display:inline-flex;align-items:center;gap:8px;
+  background:linear-gradient(135deg,var(--brand),var(--brand2));
+  color:#0a0a0a;
+  padding:16px 36px;border-radius:50px;font-weight:800;
+  font-size:.82rem;letter-spacing:1.5px;text-transform:uppercase;
+  border:none;cursor:pointer;position:relative;overflow:hidden;
+  transition:transform .25s var(--ease-spring),box-shadow .25s;
+  box-shadow:0 10px 36px rgba(245,138,31,.4),inset 0 1px 0 rgba(255,255,255,.25);
+}
+.btn-primary::before{
+  content:'';position:absolute;top:0;left:-100%;
+  width:80%;height:100%;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.35),transparent);
+  transform:skewX(-20deg);
+  transition:left .6s;
+}
+.btn-primary:hover::before{left:150%;}
+.btn-primary:hover{
+  transform:translateY(-3px);
+  box-shadow:0 20px 56px rgba(245,138,31,.55),inset 0 1px 0 rgba(255,255,255,.3);
+}
+.btn-primary i{font-size:1rem;}
+/* Ghost CTA */
+.btn-ghost{
+  display:inline-flex;align-items:center;gap:8px;
+  background:transparent;color:var(--text);
+  padding:14px 30px;border-radius:50px;font-weight:700;
+  font-size:.8rem;letter-spacing:1.5px;text-transform:uppercase;
+  border:1px solid var(--border);cursor:pointer;
+  transition:all .25s;backdrop-filter:blur(8px);
+}
+.btn-ghost:hover{
+  border-color:var(--brand);color:var(--brand);
+  background:rgba(245,138,31,.05);
+  transform:translateY(-2px);
+}
+.btn-ghost i{font-size:1rem;}
+/* Trust bullets */
+.hero-trust{
+  display:flex;flex-direction:column;gap:10px;
+  opacity:0;
+  animation:fade-up .8s var(--ease-out-expo) .8s forwards;
+}
+.trust-item{
+  display:flex;align-items:center;gap:10px;
+  font-size:.8rem;color:var(--text2);
+}
+.trust-item i{color:var(--brand);font-size:.95rem;flex-shrink:0;}
+/* Hero stat callouts */
+.hero-stats-float{
+  position:absolute;right:5%;top:50%;transform:translateY(-50%);
+  z-index:2;display:flex;flex-direction:column;gap:16px;
+  opacity:0;
+  animation:fade-up .9s var(--ease-out-expo) .9s forwards;
+}
+.hstat{
+  background:var(--glass);
+  backdrop-filter:var(--glass-blur);-webkit-backdrop-filter:var(--glass-blur);
+  border:1px solid var(--border);border-radius:var(--radius);
+  padding:22px 26px;min-width:170px;text-align:center;
+  position:relative;overflow:hidden;
+  transition:transform .3s var(--ease-spring),border-color .3s;
+}
+.hstat::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent,var(--brand),transparent);
+  opacity:0;transition:opacity .3s;
+}
+.hstat:hover{transform:translateY(-4px);border-color:var(--border-o);}
+.hstat:hover::before{opacity:1;}
+.hstat-num{
+  font-size:2.1rem;font-weight:900;color:var(--white);
+  letter-spacing:-1px;display:block;line-height:1;
+  background:linear-gradient(135deg,var(--brand),#fff 80%);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  background-clip:text;
+}
+.hstat-lbl{
+  font-size:.64rem;letter-spacing:2.5px;text-transform:uppercase;
+  color:var(--text2);margin-top:6px;display:block;
+}
+/* Scroll hint */
+.scroll-hint{
+  position:absolute;bottom:36px;left:50%;transform:translateX(-50%);
+  z-index:2;display:flex;flex-direction:column;align-items:center;gap:6px;
+}
+.scroll-hint span{
+  font-size:.6rem;letter-spacing:4px;text-transform:uppercase;color:var(--text2);
+}
+.scroll-line{
+  width:1px;height:44px;
+  background:linear-gradient(to bottom,var(--brand),transparent);
+  animation:scroll-grow 1.8s ease-in-out infinite;
+}
+@keyframes scroll-grow{
+  0%,100%{transform:scaleY(1);opacity:.5;}
+  50%{transform:scaleY(.6);opacity:1;}
+}
+
+/* ── RESULTS MARQUEE ── */
+.marquee{
+  background:linear-gradient(90deg,var(--bg3),var(--bg4),var(--bg3));
+  border-top:1px solid var(--border);border-bottom:1px solid var(--border);
+  padding:18px 0;overflow:hidden;position:relative;
+}
+.marquee::before,.marquee::after{
+  content:'';position:absolute;top:0;bottom:0;width:120px;z-index:2;
+  pointer-events:none;
+}
+.marquee::before{left:0;background:linear-gradient(90deg,var(--bg3),transparent);}
+.marquee::after{right:0;background:linear-gradient(-90deg,var(--bg3),transparent);}
+.marquee-track{
+  display:flex;align-items:center;gap:60px;
+  animation:marquee-slide 40s linear infinite;
+  white-space:nowrap;width:max-content;
+}
+@keyframes marquee-slide{
+  0%{transform:translateX(0);}
+  100%{transform:translateX(-50%);}
+}
+.marquee-item{
+  display:inline-flex;align-items:center;gap:14px;
+  font-family:'Playfair Display',serif;font-style:italic;
+  color:var(--white);font-size:1.25rem;font-weight:700;
+  letter-spacing:-.3px;
+}
+.marquee-item i{color:var(--brand);font-size:.65em;opacity:.9;}
+.marquee-item .mq-tag{
+  font-family:'JetBrains Mono',monospace;font-style:normal;
+  font-size:.7rem;letter-spacing:2.5px;text-transform:uppercase;
+  background:rgba(245,138,31,.12);color:var(--brand);
+  padding:5px 12px;border-radius:4px;border:1px solid rgba(245,138,31,.22);
+  font-weight:600;
+}
+
+/* ── SECTION SHARED ── */
+.sec{padding:110px 5%;}
+.sec-inner{max-width:1200px;margin:0 auto;}
+.sec-eyebrow{
+  font-size:.65rem;letter-spacing:5px;text-transform:uppercase;
+  color:var(--brand);font-weight:700;margin-bottom:10px;display:inline-flex;
+  align-items:center;gap:8px;
+}
+.sec-eyebrow::before{
+  content:'';width:24px;height:1px;background:var(--brand);
+}
+.sec-eyebrow.center{justify-content:center;}
+.sec-title{
+  font-family:'Playfair Display',serif;
+  font-size:clamp(2rem,4.6vw,3.1rem);
+  color:var(--white);margin-bottom:14px;line-height:1.15;
+  letter-spacing:-.5px;
+}
+.sec-title .accent{
+  font-style:italic;
+  background:linear-gradient(135deg,var(--brand),var(--brand2));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  background-clip:text;
+}
+.sec-rule{
+  width:48px;height:2px;
+  background:linear-gradient(90deg,var(--brand),transparent);
+  border-radius:1px;margin-bottom:52px;
+}
+.sec-rule.center{margin-left:auto;margin-right:auto;}
+.text-center{text-align:center;}
+.sec-lead{
+  font-size:1rem;color:var(--text2);line-height:1.75;
+  max-width:680px;margin:0 auto 48px;text-align:center;
+}
+
+/* ── REVEAL ANIMATIONS ── */
+.reveal{
+  opacity:0;transform:translateY(44px);
+  transition:opacity .75s var(--ease-out-expo),transform .75s var(--ease-out-expo);
+}
+.reveal.show{opacity:1;transform:translateY(0);}
+.reveal-d1{transition-delay:.08s;}
+.reveal-d2{transition-delay:.16s;}
+.reveal-d3{transition-delay:.24s;}
+.reveal-d4{transition-delay:.32s;}
+.reveal-d5{transition-delay:.40s;}
+.reveal-d6{transition-delay:.48s;}
+
+/* ── ABOUT ── */
+#about{background:var(--bg2);position:relative;overflow:hidden;}
+#about::before{
+  content:'';position:absolute;top:-100px;left:-100px;
+  width:500px;height:500px;border-radius:50%;
+  background:radial-gradient(circle,rgba(245,138,31,.05),transparent 60%);
+  filter:blur(40px);pointer-events:none;
+}
+.about-grid{
+  display:grid;grid-template-columns:1fr 1.15fr;
+  gap:80px;align-items:center;position:relative;z-index:1;
+}
+.photo-wrap{position:relative;display:flex;justify-content:center;}
+.photo-frame{
+  position:relative;width:400px;height:480px;
+  border-radius:28px;overflow:hidden;flex-shrink:0;
+}
+.photo-frame::before{
+  content:'';position:absolute;inset:-2px;
+  border-radius:30px;
+  background:conic-gradient(from 0deg,var(--brand),var(--bg3),var(--cyan),var(--bg3),var(--brand2),var(--bg3),var(--brand));
+  z-index:0;
+  animation:spin-border 8s linear infinite;
+}
+@keyframes spin-border{to{transform:rotate(360deg);}}
+.photo-frame-inner{
+  position:absolute;inset:2px;border-radius:26px;
+  overflow:hidden;z-index:1;background:var(--bg3);
+}
+.photo-frame-inner img{
+  width:100%;height:100%;object-fit:cover;object-position:top center;
+  transition:transform .6s var(--ease-out-expo);
+}
+.photo-frame:hover .photo-frame-inner img{transform:scale(1.04);}
+.photo-badge{
+  position:absolute;bottom:-18px;right:-18px;z-index:2;
+  background:linear-gradient(135deg,var(--brand),var(--brand2));
+  color:#0a0a0a;
+  padding:14px 18px;border-radius:16px;
+  font-weight:800;font-size:.78rem;text-align:center;
+  box-shadow:0 16px 40px rgba(245,138,31,.5);
+  letter-spacing:.5px;
+}
+.photo-badge strong{display:block;font-size:1.55rem;font-weight:900;line-height:1;}
+.photo-stamp{
+  position:absolute;top:-14px;left:-14px;z-index:2;
+  background:var(--bg);border:1px solid var(--border-o);
+  color:var(--brand);padding:8px 14px;border-radius:10px;
+  font-family:'JetBrains Mono',monospace;font-size:.62rem;
+  letter-spacing:2px;text-transform:uppercase;font-weight:700;
+}
+.about-body p{
+  color:var(--text2);line-height:1.9;
+  margin-bottom:18px;font-size:.95rem;
+}
+.about-body p strong{color:var(--white);font-weight:600;}
+.about-pillars{
+  display:grid;grid-template-columns:repeat(2,1fr);
+  gap:14px;margin-top:32px;
+}
+.about-pillar{
+  display:flex;align-items:flex-start;gap:12px;
+  padding:14px;background:var(--surface);
+  border:1px solid var(--border);border-radius:var(--radius-sm);
+  transition:all .3s;
+}
+.about-pillar:hover{border-color:var(--border-o);background:var(--surface2);}
+.about-pillar i{
+  color:var(--brand);font-size:1.3rem;flex-shrink:0;margin-top:1px;
+  width:32px;height:32px;border-radius:8px;
+  background:rgba(245,138,31,.1);
+  display:flex;align-items:center;justify-content:center;
+}
+.about-pillar div h4{
+  color:var(--white);font-size:.85rem;font-weight:700;
+  margin-bottom:3px;
+}
+.about-pillar div p{
+  color:var(--text2);font-size:.78rem;line-height:1.5;margin:0;
+}
+.stats-row{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:12px;margin-top:36px;
+}
+.stat-card{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius-sm);padding:22px 14px;
+  text-align:center;
+  transition:all .3s var(--ease-spring);
+  position:relative;overflow:hidden;
+}
+.stat-card::after{
+  content:'';position:absolute;bottom:0;left:0;right:0;
+  height:2px;background:var(--brand);
+  transform:scaleX(0);transition:transform .3s;
+}
+.stat-card:hover{
+  border-color:var(--border-o);
+  transform:translateY(-4px);
+  background:var(--surface2);
+}
+.stat-card:hover::after{transform:scaleX(1);}
+.stat-num{
+  font-size:2.1rem;font-weight:900;color:var(--white);
+  display:block;line-height:1;letter-spacing:-1px;
+  background:linear-gradient(135deg,var(--brand),#fff 90%);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  background-clip:text;
+}
+.stat-lbl{
+  font-size:.62rem;color:var(--text2);
+  text-transform:uppercase;letter-spacing:2px;
+  margin-top:6px;display:block;
+}
+
+/* ── AI PILLAR SECTION ── */
+#ai{
+  background:var(--bg);position:relative;overflow:hidden;
+  padding:110px 5%;
+}
+#ai::before{
+  content:'';position:absolute;inset:0;
+  background:
+    radial-gradient(ellipse 60% 40% at 80% 20%,rgba(77,212,255,.07),transparent),
+    radial-gradient(ellipse 60% 40% at 20% 80%,rgba(245,138,31,.07),transparent);
+  pointer-events:none;
+}
+.ai-head{display:grid;grid-template-columns:1fr 1.1fr;gap:60px;align-items:end;margin-bottom:60px;position:relative;z-index:1;}
+.ai-head-right p{color:var(--text2);font-size:.96rem;line-height:1.8;}
+.ai-head-right p strong{color:var(--white);font-weight:600;}
+.ai-pillars{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:18px;
+  position:relative;z-index:1;
+}
+.ai-pillar{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius);padding:30px 24px;
+  position:relative;overflow:hidden;
+  transition:all .4s var(--ease-out-expo);
+}
+.ai-pillar::before{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(135deg,rgba(245,138,31,.08),transparent);
+  opacity:0;transition:opacity .4s;
+}
+.ai-pillar::after{
+  content:attr(data-num);
+  position:absolute;top:18px;right:22px;
+  font-family:'JetBrains Mono',monospace;font-size:.62rem;
+  color:rgba(245,138,31,.4);letter-spacing:2px;
+}
+.ai-pillar:hover{
+  transform:translateY(-8px);
+  border-color:var(--border-o);
+  box-shadow:0 24px 60px rgba(0,0,0,.4),0 0 50px rgba(245,138,31,.08);
+}
+.ai-pillar:hover::before{opacity:1;}
+.ai-pillar-icon{
+  width:54px;height:54px;
+  background:linear-gradient(135deg,rgba(245,138,31,.15),rgba(245,138,31,.05));
+  border:1px solid rgba(245,138,31,.22);
+  border-radius:var(--radius-sm);
+  display:flex;align-items:center;justify-content:center;
+  margin-bottom:20px;position:relative;
+}
+.ai-pillar-icon::after{
+  content:'';position:absolute;inset:-1px;border-radius:inherit;
+  background:linear-gradient(135deg,var(--brand),transparent);
+  z-index:-1;opacity:0;transition:opacity .3s;
+}
+.ai-pillar:hover .ai-pillar-icon::after{opacity:.4;}
+.ai-pillar-icon i{color:var(--brand);font-size:1.5rem;}
+.ai-pillar h3{
+  color:var(--white);font-size:1rem;font-weight:700;
+  margin-bottom:10px;letter-spacing:-.2px;
+  position:relative;z-index:1;
+}
+.ai-pillar p{
+  color:var(--text2);font-size:.84rem;line-height:1.7;
+  position:relative;z-index:1;
+}
+
+/* ── CLIENTS ── */
+#clients{
+  background:var(--bg3);
+  padding:52px 5%;
+  border-top:1px solid var(--border);
+  border-bottom:1px solid var(--border);
+}
+.clients-label{
+  text-align:center;font-size:.65rem;
+  letter-spacing:5px;text-transform:uppercase;
+  color:var(--text2);margin-bottom:32px;
+}
+.logos-row{
+  display:flex;align-items:center;justify-content:center;
+  gap:44px;flex-wrap:wrap;max-width:900px;margin:0 auto;
+}
+.logos-row img{
+  height:44px;object-fit:contain;
+  filter:grayscale(1) brightness(.5);opacity:.55;
+  transition:all .35s;
+}
+.logos-row img:hover{
+  filter:grayscale(0) brightness(1);
+  opacity:1;transform:scale(1.05);
+}
+
+/* ── SERVICES ── */
+#services{
+  background:var(--bg2);
+  position:relative;overflow:hidden;
+}
+#services::before{
+  content:'';position:absolute;inset:0;
+  background-image:repeating-linear-gradient(
+    45deg,rgba(245,138,31,.02) 0,
+    rgba(245,138,31,.02) 1px,
+    transparent 0,transparent 50%
+  );background-size:28px 28px;
+}
+.services-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:20px;
+  position:relative;z-index:1;
+}
+.svc-card{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius);padding:34px 28px;
+  transition:all .4s var(--ease-out-expo);
+  position:relative;overflow:hidden;
+  cursor:default;
+}
+.svc-card::before{
+  content:'';position:absolute;inset:0;border-radius:var(--radius);
+  background:linear-gradient(135deg,rgba(245,138,31,.06),transparent);
+  opacity:0;transition:opacity .4s;
+}
+.svc-card::after{
+  content:'';position:absolute;top:0;left:0;right:0;
+  height:1px;
+  background:linear-gradient(90deg,transparent,var(--brand),transparent);
+  opacity:0;transition:opacity .4s;
+}
+.svc-card:hover{
+  transform:translateY(-8px);
+  border-color:var(--border-o);
+  box-shadow:0 24px 60px rgba(0,0,0,.4),0 0 50px rgba(245,138,31,.06);
+}
+.svc-card:hover::before{opacity:1;}
+.svc-card:hover::after{opacity:1;}
+.svc-num{
+  font-family:'JetBrains Mono',monospace;
+  font-size:.62rem;letter-spacing:3px;color:var(--brand);
+  font-weight:700;text-transform:uppercase;margin-bottom:20px;
+  display:block;
+}
+.svc-icon{
+  width:54px;height:54px;
+  background:rgba(245,138,31,.08);
+  border:1px solid rgba(245,138,31,.18);
+  border-radius:var(--radius-sm);
+  display:flex;align-items:center;justify-content:center;
+  margin-bottom:20px;transition:all .35s;
+  position:relative;
+}
+.svc-card:hover .svc-icon{
+  background:rgba(245,138,31,.18);
+  border-color:rgba(245,138,31,.4);
+  box-shadow:0 0 30px rgba(245,138,31,.25);
+}
+.svc-icon i{color:var(--brand);font-size:1.5rem;}
+.svc-card h3{
+  color:var(--white);font-size:1.02rem;font-weight:700;
+  margin-bottom:10px;letter-spacing:-.2px;
+}
+.svc-card p{
+  color:var(--text2);font-size:.84rem;line-height:1.75;
+}
+.svc-card .svc-tag{
+  display:inline-block;margin-top:14px;
+  font-family:'JetBrains Mono',monospace;
+  font-size:.62rem;letter-spacing:1.8px;text-transform:uppercase;
+  color:var(--brand);padding:4px 9px;
+  background:rgba(245,138,31,.08);
+  border:1px solid rgba(245,138,31,.18);border-radius:4px;
+  font-weight:600;
+}
+
+/* ── PORTFOLIO ── */
+#portfolio{background:var(--bg);}
+.port-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.port-card{
+  border-radius:var(--radius);overflow:hidden;
+  position:relative;aspect-ratio:4/3;cursor:pointer;
+  transition:transform .45s var(--ease-out-expo),box-shadow .45s;
+}
+.port-card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 32px 70px rgba(0,0,0,.5);
+}
+.port-num{
+  position:absolute;top:16px;left:20px;z-index:3;
+  font-family:'JetBrains Mono',monospace;
+  font-size:.62rem;letter-spacing:2.5px;font-weight:700;
+  color:rgba(255,255,255,.4);text-transform:uppercase;
+}
+.port-bg{
+  width:100%;height:100%;
+  display:flex;align-items:center;justify-content:center;
+  padding:28px;transition:transform .55s var(--ease-out-expo);
+}
+.port-card:hover .port-bg{transform:scale(1.06);}
+.port-bg img{
+  max-width:60%;max-height:60%;object-fit:contain;
+  filter:drop-shadow(0 4px 24px rgba(0,0,0,.6));
+  transition:filter .3s;
+}
+.port-card:hover .port-bg img{
+  filter:drop-shadow(0 8px 30px rgba(245,138,31,.3));
+}
+.port-overlay{
+  position:absolute;inset:0;
+  background:linear-gradient(to top,rgba(3,9,18,.97) 30%,rgba(3,9,18,.6) 70%,rgba(3,9,18,.1) 100%);
+  display:flex;flex-direction:column;justify-content:flex-end;
+  padding:24px;
+  transform:translateY(8px);opacity:0;
+  transition:opacity .4s var(--ease-out-expo),transform .4s var(--ease-out-expo);
+}
+.port-card:hover .port-overlay{opacity:1;transform:translateY(0);}
+.port-tag{
+  display:inline-block;
+  background:rgba(245,138,31,.12);
+  border:1px solid rgba(245,138,31,.25);
+  color:var(--brand);padding:3px 10px;
+  border-radius:20px;font-size:.62rem;
+  letter-spacing:2px;text-transform:uppercase;
+  margin-bottom:8px;width:fit-content;
+  font-weight:700;
+}
+.port-overlay h3{
+  color:var(--white);font-size:1rem;font-weight:700;
+  margin-bottom:4px;
+}
+.port-overlay p{
+  color:var(--text2);font-size:.8rem;line-height:1.55;
+  margin-bottom:12px;
+}
+.port-link{
+  display:inline-flex;align-items:center;gap:5px;
+  color:var(--brand);font-size:.75rem;font-weight:700;
+  letter-spacing:.5px;transition:gap .2s;
+}
+.port-link:hover{gap:8px;}
+.port-link i{font-size:.9rem;}
+
+/* ── TESTIMONIALS ── */
+#testimonials{
+  background:var(--bg2);
+  position:relative;overflow:hidden;
+}
+#testimonials::before{
+  content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse 60% 50% at 50% 50%,rgba(245,138,31,.04),transparent);
+}
+.testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;position:relative;z-index:1;}
+.testi-card{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius);padding:36px 30px;
+  position:relative;overflow:hidden;
+  transition:all .35s var(--ease-spring);
+}
+.testi-card::before{
+  content:'';position:absolute;
+  top:0;left:0;width:3px;height:0;
+  background:linear-gradient(to bottom,var(--brand),transparent);
+  transition:height .4s var(--ease-out-expo);
+}
+.testi-card:hover{
+  border-color:var(--border-o);
+  transform:translateY(-6px);
+  box-shadow:0 20px 50px rgba(0,0,0,.3);
+}
+.testi-card:hover::before{height:100%;}
+.testi-bigquote{
+  font-family:'Playfair Display',serif;
+  font-size:5rem;line-height:1;
+  color:var(--brand);opacity:.14;
+  position:absolute;top:14px;right:22px;
+  pointer-events:none;font-style:italic;
+}
+.stars{display:flex;gap:3px;margin-bottom:18px;}
+.stars i{color:var(--brand);font-size:.78rem;}
+.testi-result{
+  display:inline-block;font-family:'JetBrains Mono',monospace;
+  font-size:.62rem;letter-spacing:2px;text-transform:uppercase;
+  color:var(--brand);font-weight:700;
+  background:rgba(245,138,31,.08);
+  border:1px solid rgba(245,138,31,.2);
+  padding:5px 10px;border-radius:4px;margin-bottom:18px;
+}
+.testi-text{
+  color:var(--text2);font-size:.9rem;line-height:1.85;
+  margin-bottom:24px;position:relative;z-index:1;
+}
+.testi-text strong{color:var(--white);font-weight:600;}
+.testi-author{display:flex;align-items:center;gap:14px;}
+.testi-avatar{
+  width:48px;height:48px;border-radius:50%;flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;
+  font-weight:800;font-size:1.15rem;color:#0a0a0a;
+  background:linear-gradient(135deg,var(--brand),var(--brand2));
+  box-shadow:0 6px 20px rgba(245,138,31,.4);
+}
+.testi-name{color:var(--white);font-size:.9rem;font-weight:700;}
+.testi-role{color:var(--text2);font-size:.75rem;margin-top:2px;}
+
+/* ── FAQ ── */
+#faq{background:var(--bg);position:relative;overflow:hidden;}
+#faq::before{
+  content:'';position:absolute;top:0;right:-200px;
+  width:600px;height:600px;border-radius:50%;
+  background:radial-gradient(circle,rgba(245,138,31,.05),transparent 60%);
+  filter:blur(60px);pointer-events:none;
+}
+.faq-grid{max-width:860px;margin:0 auto;position:relative;z-index:1;}
+.faq-item{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius-sm);margin-bottom:12px;
+  overflow:hidden;
+  transition:all .3s;
+}
+.faq-item:hover{border-color:var(--border-o);}
+.faq-item.open{
+  border-color:var(--border-o);
+  background:var(--surface2);
+  box-shadow:0 10px 30px rgba(0,0,0,.25);
+}
+.faq-q{
+  width:100%;text-align:left;
+  display:flex;align-items:center;justify-content:space-between;
+  gap:20px;padding:22px 26px;
+  background:none;border:none;cursor:pointer;
+  color:var(--white);font-size:.96rem;font-weight:600;
+  font-family:inherit;line-height:1.4;
+}
+.faq-q i{
+  color:var(--brand);font-size:1.4rem;flex-shrink:0;
+  transition:transform .35s var(--ease-spring);
+}
+.faq-item.open .faq-q i{transform:rotate(45deg);}
+.faq-a{
+  max-height:0;overflow:hidden;
+  transition:max-height .4s var(--ease-out-expo);
+}
+.faq-a-inner{
+  padding:0 26px 22px;
+  color:var(--text2);font-size:.88rem;line-height:1.8;
+}
+.faq-a-inner strong{color:var(--white);font-weight:600;}
+
+/* ── CONTACT ── */
+#contact{background:var(--bg2);position:relative;overflow:hidden;}
+#contact::before{
+  content:'';position:absolute;bottom:-100px;left:-100px;
+  width:500px;height:500px;border-radius:50%;
+  background:radial-gradient(circle,rgba(245,138,31,.06),transparent 60%);
+  filter:blur(50px);pointer-events:none;
+}
+.contact-grid{
+  display:grid;grid-template-columns:1fr 1.05fr;
+  gap:70px;align-items:start;position:relative;z-index:1;
+}
+.contact-left>p{
+  color:var(--text2);font-size:.92rem;line-height:1.8;
+  margin-bottom:38px;
+}
+.contact-left>p strong{color:var(--white);font-weight:600;}
+.cinfo-item{
+  display:flex;align-items:center;gap:14px;
+  margin-bottom:18px;
+}
+.cinfo-icon{
+  width:44px;height:44px;flex-shrink:0;
+  background:rgba(245,138,31,.07);
+  border:1px solid rgba(245,138,31,.14);
+  border-radius:var(--radius-sm);
+  display:flex;align-items:center;justify-content:center;
+  transition:all .25s;
+}
+.cinfo-item:hover .cinfo-icon{
+  background:rgba(245,138,31,.14);
+  border-color:rgba(245,138,31,.35);
+}
+.cinfo-icon i{color:var(--brand);font-size:1.05rem;}
+.cinfo-text h4{color:var(--white);font-size:.83rem;font-weight:600;}
+.cinfo-text p,.cinfo-text a{
+  color:var(--text2);font-size:.82rem;
+  text-decoration:none;transition:color .2s;
+}
+.cinfo-text a:hover{color:var(--brand);}
+.social-row{display:flex;gap:10px;margin-top:28px;}
+.s-link{
+  width:42px;height:42px;border-radius:var(--radius-sm);
+  border:1px solid var(--border);
+  display:flex;align-items:center;justify-content:center;
+  color:var(--text2);transition:all .25s;
+  background:var(--surface);
+}
+.s-link:hover{
+  background:var(--brand);color:#0a0a0a;
+  border-color:var(--brand);
+  transform:translateY(-3px);
+  box-shadow:0 8px 20px rgba(245,138,31,.3);
+}
+.s-link i{font-size:1.05rem;}
+.form-wrap{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  padding:36px 32px;
+  position:relative;overflow:hidden;
+}
+.form-wrap::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:linear-gradient(90deg,transparent,var(--brand),transparent);
+}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+.fgroup{position:relative;margin-bottom:16px;}
+.fgroup label{
+  position:absolute;left:16px;top:50%;transform:translateY(-50%);
+  font-size:.83rem;color:var(--text2);
+  transition:all .22s var(--ease-out-expo);
+  pointer-events:none;background:transparent;padding:0 4px;
+  letter-spacing:.3px;
+}
+.fgroup.has-val label,.fgroup input:focus~label,.fgroup textarea:focus~label{
+  top:0;transform:translateY(-50%);font-size:.68rem;
+  color:var(--brand);letter-spacing:.8px;
+  background:var(--bg2);
+}
+.fgroup.textarea-group label{top:18px;transform:none;}
+.fgroup.textarea-group.has-val label,.fgroup.textarea-group input:focus~label,.fgroup textarea:focus~label{
+  top:0;transform:translateY(-50%);
+}
+.fgroup input,.fgroup textarea{
+  width:100%;background:rgba(255,255,255,.025);
+  border:1px solid var(--border);border-radius:var(--radius-sm);
+  padding:15px 16px;color:var(--text);
+  font-family:'Inter',sans-serif;font-size:.88rem;
+  transition:all .25s;outline:none;
+  -webkit-appearance:none;
+}
+.fgroup input:focus,.fgroup textarea:focus{
+  border-color:var(--brand);
+  background:rgba(245,138,31,.03);
+  box-shadow:0 0 0 3px rgba(245,138,31,.1);
+}
+.fgroup textarea{height:120px;resize:none;padding-top:18px;}
+#submitBtn{
+  width:100%;margin-top:4px;
+  padding:16px;font-size:.85rem;
+  justify-content:center;
+}
+.success-state{display:none;text-align:center;padding:24px;}
+.success-state i{font-size:3rem;color:var(--brand);margin-bottom:12px;}
+.success-state p{color:var(--text2);font-size:.9rem;}
+.form-success-active .form-fields{display:none;}
+.form-success-active .success-state{display:block;}
+.form-trust{
+  margin-top:18px;text-align:center;
+  font-size:.74rem;color:var(--text2);letter-spacing:.5px;
+}
+.form-trust i{color:var(--brand);}
+
+/* ── STICKY MOBILE CTA ── */
+.mobile-cta{
+  display:none;position:fixed;left:0;right:0;bottom:0;z-index:998;
+  background:rgba(3,9,18,.92);
+  backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+  border-top:1px solid var(--border-o);
+  padding:12px 16px env(safe-area-inset-bottom);
+  box-shadow:0 -10px 30px rgba(0,0,0,.5);
+}
+.mobile-cta a{
+  display:flex;align-items:center;justify-content:center;gap:8px;
+  width:100%;
+  background:linear-gradient(135deg,var(--brand),var(--brand2));
+  color:#0a0a0a;font-weight:800;
+  padding:14px;border-radius:50px;
+  font-size:.78rem;letter-spacing:1.5px;text-transform:uppercase;
+  box-shadow:0 10px 26px rgba(245,138,31,.4);
+}
+.mobile-cta a i{font-size:.95rem;}
+
+/* ── FOOTER ── */
+footer{
+  background:var(--bg);
+  border-top:1px solid var(--border);
+  padding:60px 5% 36px;
+}
+.footer-inner{
+  max-width:1200px;margin:0 auto;
+  display:grid;grid-template-columns:1.2fr 1fr 1fr 1fr;
+  gap:48px;margin-bottom:48px;
+}
+.footer-logo{display:flex;align-items:center;gap:10px;margin-bottom:14px;}
+.footer-logo-icon{
+  width:34px;height:34px;border-radius:50%;
+  background:var(--brand);
+  display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;box-shadow:0 0 20px rgba(245,138,31,.35);
+}
+.footer-logo-icon svg{width:20px;height:20px;}
+.footer-logo-text{
+  font-weight:800;font-size:.88rem;
+  letter-spacing:2px;text-transform:uppercase;
+  color:var(--white);
+}
+.footer-tagline{
+  color:var(--text2);font-size:.83rem;
+  line-height:1.7;max-width:280px;
+}
+.footer-col h4{
+  color:var(--white);font-size:.72rem;
+  letter-spacing:3px;text-transform:uppercase;
+  font-weight:700;margin-bottom:16px;
+}
+.footer-col ul{list-style:none;}
+.footer-col ul li{margin-bottom:10px;}
+.footer-col ul li a{
+  color:var(--text2);font-size:.83rem;
+  transition:color .2s;
+}
+.footer-col ul li a:hover{color:var(--brand);}
+.footer-contact-item{
+  display:flex;align-items:center;gap:10px;
+  margin-bottom:10px;color:var(--text2);font-size:.83rem;
+}
+.footer-contact-item i{color:var(--brand);font-size:.9rem;flex-shrink:0;}
+.footer-contact-item a{color:inherit;transition:color .2s;}
+.footer-contact-item a:hover{color:var(--brand);}
+.footer-bottom{
+  max-width:1200px;margin:0 auto;
+  border-top:1px solid var(--border);
+  padding-top:24px;
+  display:flex;align-items:center;justify-content:space-between;
+  flex-wrap:wrap;gap:12px;
+}
+.footer-copy{color:var(--text2);font-size:.78rem;}
+.footer-copy span{color:var(--brand);}
+.footer-social{display:flex;gap:8px;}
+
+/* ── RESPONSIVE ── */
+@media(max-width:1200px){
+  .hero-stats-float{display:none;}
+  .ai-pillars{grid-template-columns:repeat(2,1fr);}
+}
+@media(max-width:1024px){
+  .services-grid,.port-grid,.testi-grid{grid-template-columns:repeat(2,1fr);}
+  .footer-inner{grid-template-columns:1fr 1fr;gap:40px;}
+  .about-grid,.ai-head{gap:50px;}
+}
+@media(max-width:768px){
+  .nav-links,.lang-pills{display:none;}
+  .hamburger{display:flex;}
+  .about-grid,.contact-grid,.ai-head{grid-template-columns:1fr;}
+  .photo-wrap{justify-content:center;}
+  .photo-frame{width:300px;height:360px;}
+  .services-grid,.testi-grid,.port-grid{grid-template-columns:1fr;}
+  .ai-pillars{grid-template-columns:1fr;}
+  .about-pillars{grid-template-columns:1fr;}
+  .form-row{grid-template-columns:1fr;}
+  .sec,#ai{padding:80px 5%;}
+  #hero{padding:100px 5% 80px;}
+  .footer-inner{grid-template-columns:1fr;}
+  .footer-bottom{flex-direction:column;text-align:center;}
+  .marquee-item{font-size:1rem;}
+  .mobile-cta{display:block;}
+  body{padding-bottom:80px;}
+  .hero-trajectory{display:none;}
+}
+@media(max-width:480px){
+  .hero-btns{flex-direction:column;}
+  .hero-btns .btn-primary,.hero-btns .btn-ghost{justify-content:center;}
+  .stats-row{grid-template-columns:1fr 1fr 1fr;}
+  .stat-num{font-size:1.6rem;}
+}
+
+/* ── REDUCED MOTION ── */
+@media(prefers-reduced-motion:reduce){
+  *{animation-duration:.01ms !important;transition-duration:.01ms !important;}
+  .reveal{opacity:1;transform:none;}
+  .hero-headline,.hero-sub,.hero-btns,.hero-trust,
+  .hero-stats-float,.hero-eyebrow{opacity:1;transform:none;clip-path:none;}
+  .aurora::before,.aurora::after,.aurora-blob{animation:none;}
+  .scroll-line{animation:none;}
+  .photo-frame::before{animation:none;}
+  .marquee-track{animation:none;}
+  .hero-particles{display:none;}
+}
+</style>
 </head>
 <body>
 
+<!-- Progress bar -->
+<div id="progress-bar" role="progressbar" aria-label="Page scroll progress"></div>
+
+<!-- Cursor glow (desktop) -->
+<div id="cursor-glow" aria-hidden="true"></div>
+
 <!-- NAV -->
-<nav id="nav">
-  <a href="#hero" class="nav-logo">
-    <img src="logo.jpg" alt="I Launch U"/>
-    <span>I Launch U</span>
+<nav id="nav" role="navigation" aria-label="Main navigation">
+  <a href="#hero" class="nav-logo" aria-label="I Launch U — Home">
+    <div class="nav-logo-icon" aria-hidden="true">
+      <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="50" cy="50" r="42" stroke="rgba(255,255,255,.3)" stroke-width="2" fill="none"/>
+        <path d="M60 22 C64 26 67 32 67 42 L67 58 L53 58 L53 36 C53 30 56 25 60 22 Z" fill="white"/>
+        <circle cx="60" cy="38" r="3.2" fill="#F58A1F"/>
+        <path d="M53 48 L45 58 L53 58 Z" fill="white"/>
+        <path d="M67 48 L75 58 L67 58 Z" fill="white"/>
+        <rect x="53" y="58" width="14" height="3" fill="white"/>
+        <path d="M40 22 L44 28" stroke="rgba(255,255,255,.6)" stroke-width="2" stroke-linecap="round"/>
+        <path d="M36 30 L40 35" stroke="rgba(255,255,255,.6)" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <span class="nav-logo-text">I Launch U</span>
   </a>
   <ul class="nav-links">
     <li><a href="#about" data-en="About" data-es="Sobre Mí" data-pt="Sobre Mim">Sobre Mí</a></li>
+    <li><a href="#ai" data-en="AI Edge" data-es="Ventaja IA" data-pt="Vantagem IA">Ventaja IA</a></li>
     <li><a href="#services" data-en="Services" data-es="Servicios" data-pt="Serviços">Servicios</a></li>
     <li><a href="#portfolio" data-en="Portfolio" data-es="Portfolio" data-pt="Portfólio">Portfolio</a></li>
-    <li><a href="#testimonials" data-en="Testimonials" data-es="Testimonios" data-pt="Depoimentos">Testimonios</a></li>
+    <li><a href="#testimonials" data-en="Results" data-es="Resultados" data-pt="Resultados">Resultados</a></li>
+    <li><a href="#faq" data-en="FAQ" data-es="FAQ" data-pt="FAQ">FAQ</a></li>
     <li><a href="#contact" data-en="Contact" data-es="Contacto" data-pt="Contato">Contacto</a></li>
   </ul>
-  <div class="lang-pills">
-    <button class="lbtn" onclick="setLang('en')">EN</button>
-    <button class="lbtn active" onclick="setLang('es')">ES</button>
-    <button class="lbtn" onclick="setLang('pt')">PT</button>
+  <div class="nav-right">
+    <div class="lang-pills" role="group" aria-label="Language selector">
+      <button class="lbtn" onclick="setLang('en')" aria-label="Switch to English">EN</button>
+      <button class="lbtn active" onclick="setLang('es')" aria-label="Cambiar a Español" aria-pressed="true">ES</button>
+      <button class="lbtn" onclick="setLang('pt')" aria-label="Mudar para Português">PT</button>
+    </div>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Open menu" aria-expanded="false" aria-controls="mmenu">
+      <span></span><span></span><span></span>
+    </button>
   </div>
-  <button class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></button>
 </nav>
 
 <!-- MOBILE MENU -->
-<div id="mmenu">
-  <button class="mclose" onclick="toggleMenu()">✕</button>
+<div id="mmenu" role="dialog" aria-modal="true" aria-label="Navigation menu">
+  <button class="mclose" onclick="toggleMenu()" aria-label="Close menu">
+    <i class="ph-bold ph-x" aria-hidden="true"></i>
+  </button>
   <a href="#about" onclick="toggleMenu()" data-en="About" data-es="Sobre Mí" data-pt="Sobre Mim">Sobre Mí</a>
+  <a href="#ai" onclick="toggleMenu()" data-en="AI Edge" data-es="Ventaja IA" data-pt="Vantagem IA">Ventaja IA</a>
   <a href="#services" onclick="toggleMenu()" data-en="Services" data-es="Servicios" data-pt="Serviços">Servicios</a>
   <a href="#portfolio" onclick="toggleMenu()" data-en="Portfolio" data-es="Portfolio" data-pt="Portfólio">Portfolio</a>
-  <a href="#testimonials" onclick="toggleMenu()" data-en="Testimonials" data-es="Testimonios" data-pt="Depoimentos">Testimonios</a>
+  <a href="#testimonials" onclick="toggleMenu()" data-en="Results" data-es="Resultados" data-pt="Resultados">Resultados</a>
+  <a href="#faq" onclick="toggleMenu()" data-en="FAQ" data-es="FAQ" data-pt="FAQ">FAQ</a>
   <a href="#contact" onclick="toggleMenu()" data-en="Contact" data-es="Contacto" data-pt="Contato">Contacto</a>
-  <div style="width:40px;height:1px;background:rgba(255,255,255,.1);margin:8px 0;"></div>
-  <p style="font-size:.65rem;letter-spacing:3px;text-transform:uppercase;color:var(--muted);margin-bottom:6px;" data-en="Language" data-es="Idioma" data-pt="Idioma">Idioma</p>
+  <div class="m-divider"></div>
+  <p style="font-size:.62rem;letter-spacing:4px;text-transform:uppercase;color:var(--text2);"
+     data-en="Language" data-es="Idioma" data-pt="Idioma">Idioma</p>
   <div class="lang-pills">
     <button class="lbtn" onclick="setLang('en')">EN</button>
     <button class="lbtn active" onclick="setLang('es')">ES</button>
@@ -271,73 +1374,235 @@ src="https://www.facebook.com/tr?id=734106759674043&ev=PageView&noscript=1"
 </div>
 
 <!-- HERO -->
-<section id="hero">
-  <canvas id="heroCanvas"></canvas>
-  <div class="hero-orb orb1"></div>
-  <div class="hero-orb orb2"></div>
-  <div class="hero-orb orb3"></div>
+<section id="hero" aria-labelledby="hero-headline">
+  <div class="aurora" aria-hidden="true">
+    <div class="aurora-blob"></div>
+  </div>
+  <div class="hero-grid" aria-hidden="true"></div>
+  <div class="hero-particles" id="particles" aria-hidden="true"></div>
+
+  <div class="hero-trajectory" aria-hidden="true">
+    <svg viewBox="0 0 520 360" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+      <line x1="0" y1="300" x2="520" y2="300" stroke="rgba(245,138,31,.1)" stroke-width="1"/>
+      <line x1="0" y1="225" x2="520" y2="225" stroke="rgba(245,138,31,.07)" stroke-width="1"/>
+      <line x1="0" y1="150" x2="520" y2="150" stroke="rgba(245,138,31,.07)" stroke-width="1"/>
+      <line x1="0" y1="75" x2="520" y2="75" stroke="rgba(245,138,31,.05)" stroke-width="1"/>
+      <text x="8" y="303" font-size="9" fill="rgba(245,138,31,.4)" font-family="Inter,sans-serif">$0</text>
+      <text x="8" y="228" font-size="9" fill="rgba(245,138,31,.4)" font-family="Inter,sans-serif">$25K</text>
+      <text x="8" y="153" font-size="9" fill="rgba(245,138,31,.4)" font-family="Inter,sans-serif">$50K</text>
+      <text x="8" y="78" font-size="9" fill="rgba(245,138,31,.4)" font-family="Inter,sans-serif">$100K</text>
+      <path d="M40 280 Q120 260 200 220 Q290 170 360 120 Q420 80 480 30 L480 300 L40 300 Z"
+            fill="url(#rev-fill)" opacity=".4">
+        <animate attributeName="d"
+          from="M40 300 Q120 300 200 300 Q290 300 360 300 Q420 300 480 300 L480 300 L40 300 Z"
+          to="M40 280 Q120 260 200 220 Q290 170 360 120 Q420 80 480 30 L480 300 L40 300 Z"
+          dur="1.8s" begin="0.8s" fill="freeze" calcMode="spline"
+          keySplines="0.16 1 0.3 1"/>
+      </path>
+      <path d="M40 280 Q120 260 200 220 Q290 170 360 120 Q420 80 480 30"
+            stroke="url(#rev-stroke)" stroke-width="2.5" fill="none"
+            stroke-dasharray="800" stroke-dashoffset="800"
+            stroke-linecap="round">
+        <animate attributeName="stroke-dashoffset"
+          from="800" to="0"
+          dur="1.6s" begin="0.9s" fill="freeze"
+          calcMode="spline" keySplines="0.16 1 0.3 1"/>
+      </path>
+      <circle cx="480" cy="30" r="5" fill="var(--brand)" opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur=".3s" begin="2.4s" fill="freeze"/>
+      </circle>
+      <circle cx="480" cy="30" r="10" fill="rgba(245,138,31,.25)" opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur=".4s" begin="2.4s" fill="freeze"/>
+        <animate attributeName="r" from="10" to="18" dur="1.5s" begin="2.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1"/>
+        <animate attributeName="opacity" from="1" to="0" dur="1.5s" begin="2.5s" repeatCount="indefinite"/>
+      </circle>
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur=".5s" begin="2.6s" fill="freeze"/>
+        <rect x="396" y="8" width="82" height="20" rx="4"
+              fill="rgba(245,138,31,.14)" stroke="rgba(245,138,31,.35)" stroke-width="1"/>
+        <text x="437" y="22" font-size="10" fill="#F58A1F" font-family="Inter,sans-serif"
+              font-weight="700" text-anchor="middle">7-FIGURE ZONE</text>
+      </g>
+      <defs>
+        <linearGradient id="rev-stroke" x1="40" y1="280" x2="480" y2="30" gradientUnits="userSpaceOnUse">
+          <stop offset="0%" stop-color="rgba(245,138,31,.3)"/>
+          <stop offset="100%" stop-color="#F58A1F"/>
+        </linearGradient>
+        <linearGradient id="rev-fill" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+          <stop offset="0%" stop-color="#F58A1F" stop-opacity=".4"/>
+          <stop offset="100%" stop-color="#F58A1F" stop-opacity="0"/>
+        </linearGradient>
+      </defs>
+    </svg>
+  </div>
+
   <div class="hero-content">
-    <h1 class="hero-name" data-en="Scale Your Business to <span>$100,000</span> a Month" data-es="Escala Tu Negocio Hasta <span>$100,000</span> Al Mes Con Las Estrategias Correctas" data-pt="Escale Seu Negócio até <span>$100,000</span> Por Mês Com as Estratégias Certas">Escala Tu Negocio Hasta <span>$100,000</span> Al Mes Con Las Estrategias Correctas</h1>
-    <div class="hero-typewriter" id="typewriter"></div>
-    <p class="hero-tagline"
-       data-en="I help business owners, consultants and entrepreneurs implement proven marketing strategies that generate real results."
-       data-es="Ayudo a dueños de negocios, consultores y emprendedores a implementar estrategias de marketing probadas que generan resultados reales."
-       data-pt="Ajudo proprietários de negócios, consultores e empreendedores a implementar estratégias de marketing comprovadas que geram resultados reais.">
-      Ayudo a dueños de negocios, consultores y emprendedores a implementar estrategias de marketing probadas que generan resultados reales.
+    <div class="hero-eyebrow">
+      <span class="live-dot"></span>
+      <span data-en="AI Implementation Expert" data-es="Experto en Implementación de IA" data-pt="Especialista em Implementação de IA">Experto en Implementación de IA</span>
+    </div>
+    <h1 class="hero-headline" id="hero-headline"
+        data-en="The AI &amp; Marketing Systems I Used To Build <span class='accent'>7-Figure</span> Businesses — Installed Inside Yours"
+        data-es="Los Sistemas De IA Y Marketing Que Usé Para Construir Negocios De <span class='accent'>7 Cifras</span> — Instalados Dentro Del Tuyo"
+        data-pt="Os Sistemas De IA E Marketing Que Usei Para Construir Negócios De <span class='accent'>7 Dígitos</span> — Instalados Dentro Do Seu">
+      Los Sistemas De IA Y Marketing Que Usé Para Construir Negocios De <span class="accent">7 Cifras</span> — Instalados Dentro Del Tuyo
+    </h1>
+    <p class="hero-sub"
+       data-en="I scaled my own businesses past seven figures in under 2 years — with no college degree, no funding, no shortcuts. Just the right systems, the right mentors, and AI doing the heavy lifting. <strong>Now I build that same engine inside your business.</strong>"
+       data-es="Escalé mis propios negocios a siete cifras en menos de 2 años — sin título universitario, sin inversión, sin atajos. Solo los sistemas correctos, los mentores correctos y la IA haciendo el trabajo pesado. <strong>Ahora construyo ese mismo motor dentro de tu negocio.</strong>"
+       data-pt="Escalei meus próprios negócios a sete dígitos em menos de 2 anos — sem diploma universitário, sem investimento, sem atalhos. Apenas os sistemas certos, os mentores certos e a IA fazendo o trabalho pesado. <strong>Agora construo esse mesmo motor dentro do seu negócio.</strong>">
+      Escalé mis propios negocios a siete cifras en menos de 2 años — sin título universitario, sin inversión, sin atajos. Solo los sistemas correctos, los mentores correctos y la IA haciendo el trabajo pesado. <strong>Ahora construyo ese mismo motor dentro de tu negocio.</strong>
     </p>
     <div class="hero-btns">
-      <a href="#contact" class="btn-gold" data-en="I Want to Scale My Business" data-es="Quiero Escalar Mi Negocio" data-pt="Quero Escalar Meu Negócio">Quiero Escalar Mi Negocio</a>
-      <a href="#services" class="btn-outline" data-en="View Services" data-es="Ver Servicios" data-pt="Ver Serviços">Ver Servicios</a>
+      <a href="#contact" class="btn-primary"
+         data-en="Book My Free AI Audit" data-es="Agenda Mi Auditoría Gratis" data-pt="Agende Minha Auditoria Grátis">
+        <i class="ph-bold ph-sparkle" aria-hidden="true"></i>
+        Agenda Mi Auditoría Gratis
+      </a>
+      <a href="#ai" class="btn-ghost"
+         data-en="See How It Works" data-es="Ver Cómo Funciona" data-pt="Ver Como Funciona">
+        <i class="ph ph-arrow-down" aria-hidden="true"></i>
+        Ver Cómo Funciona
+      </a>
     </div>
-    <div style="display:flex;flex-direction:column;gap:10px;margin-top:24px;">
-      <span style="font-size:.75rem;color:var(--muted);display:flex;align-items:center;gap:8px;"><span style="color:var(--gold);font-size:.6rem;">●</span> <span data-en="7-Figure Business" data-es="Negocio de 7 Cifras" data-pt="Negócio de 7 Dígitos">Negocio de 7 Cifras</span></span>
-      <span style="font-size:.75rem;color:var(--muted);display:flex;align-items:center;gap:8px;"><span style="color:var(--gold);font-size:.6rem;">●</span> <span data-en="5+ Years Experience" data-es="5+ Años de Experiencia" data-pt="5+ Anos de Experiência">5+ Años de Experiencia</span></span>
-      <span style="font-size:.75rem;color:var(--muted);display:flex;align-items:center;gap:8px;"><span style="color:var(--gold);font-size:.6rem;">●</span> <span data-en="3 Languages: English, Spanish &amp; Portuguese" data-es="3 Idiomas: Español, Inglés &amp; Portugués" data-pt="3 Idiomas: Português, Inglês &amp; Espanhol">3 Idiomas: Español, Inglés &amp; Portugués</span></span>
+    <div class="hero-trust">
+      <div class="trust-item">
+        <i class="ph-fill ph-check-circle"></i>
+        <span data-en="Built multiple 7-figure businesses in under 2 years" data-es="Múltiples negocios escalados a 7 cifras en menos de 2 años" data-pt="Múltiplos negócios escalados a 7 dígitos em menos de 2 anos">Múltiples negocios escalados a 7 cifras en menos de 2 años</span>
+      </div>
+      <div class="trust-item">
+        <i class="ph-fill ph-check-circle"></i>
+        <span data-en="$6M+ in client revenue generated · 10+ years in marketing" data-es="$6M+ generados para clientes · 10+ años en marketing" data-pt="$6M+ gerados para clientes · 10+ anos em marketing">$6M+ generados para clientes · 10+ años en marketing</span>
+      </div>
+      <div class="trust-item">
+        <i class="ph-fill ph-check-circle"></i>
+        <span data-en="Trilingual: EN · ES · PT — serving US &amp; LATAM" data-es="Trilingüe: EN · ES · PT — atendiendo EE.UU. y LATAM" data-pt="Trilíngue: EN · ES · PT — atendendo EUA e LATAM">Trilingüe: EN · ES · PT — atendiendo EE.UU. y LATAM</span>
+      </div>
     </div>
   </div>
-  <div class="hero-scroll">
+
+  <div class="hero-stats-float" aria-hidden="true">
+    <div class="hstat">
+      <span class="hstat-num" data-count="6">$0M</span>
+      <span class="hstat-lbl" data-en="Generated" data-es="Generado" data-pt="Gerado">Generado</span>
+    </div>
+    <div class="hstat">
+      <span class="hstat-num" data-count="2">0Y</span>
+      <span class="hstat-lbl" data-en="To 7 Figures" data-es="A 7 Cifras" data-pt="A 7 Dígitos">A 7 Cifras</span>
+    </div>
+    <div class="hstat">
+      <span class="hstat-num" data-count="24">0/7</span>
+      <span class="hstat-lbl" data-en="AI Always On" data-es="IA Siempre Activa" data-pt="IA Sempre Ativa">IA Siempre Activa</span>
+    </div>
+  </div>
+
+  <div class="scroll-hint" aria-hidden="true">
     <span data-en="Scroll" data-es="Scroll" data-pt="Scroll">Scroll</span>
-    <div class="scroll-arrow"></div>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- RESULTS MARQUEE -->
+<section class="marquee" aria-label="Capabilities marquee">
+  <div class="marquee-track">
+    <span class="marquee-item"><i class="ph-fill ph-circle"></i><span class="mq-tag" data-en="AI Systems" data-es="Sistemas IA" data-pt="Sistemas IA">Sistemas IA</span><span data-en="$6M+ in Client Revenue" data-es="$6M+ Generados Para Clientes" data-pt="$6M+ Gerados Para Clientes">$6M+ Generados Para Clientes</span></span>
+    <span class="marquee-item"><i class="ph-fill ph-circle"></i><span class="mq-tag" data-en="Meta Ads" data-es="Meta Ads" data-pt="Meta Ads">Meta Ads</span><span data-en="3x ROAS Average" data-es="3x ROAS Promedio" data-pt="3x ROAS Médio">3x ROAS Promedio</span></span>
+    <span class="marquee-item"><i class="ph-fill ph-circle"></i><span class="mq-tag" data-en="SEO" data-es="SEO" data-pt="SEO">SEO</span><span data-en="Page-1 Rankings in 90 Days" data-es="Página 1 De Google En 90 Días" data-pt="Página 1 Do Google Em 90 Dias">Página 1 De Google En 90 Días</span></span>
+    <span class="marquee-item"><i class="ph-fill ph-circle"></i><span class="mq-tag" data-en="Content" data-es="Contenido" data-pt="Conteúdo">Contenido</span><span data-en="Daily Output, Zero Burnout" data-es="Producción Diaria, Cero Burnout" data-pt="Produção Diária, Zero Burnout">Producción Diaria, Cero Burnout</span></span>
+    <span class="marquee-item"><i class="ph-fill ph-circle"></i><span class="mq-tag" data-en="Automation" data-es="Automatización" data-pt="Automação">Automatización</span><span data-en="24/7 Lead Capture &amp; Follow-Up" data-es="Captura Y Seguimiento 24/7" data-pt="Captura E Acompanhamento 24/7">Captura Y Seguimiento 24/7</span></span>
+    <!-- duplicate set for seamless loop -->
+    <span class="marquee-item"><i class="ph-fill ph-circle"></i><span class="mq-tag" data-en="AI Systems" data-es="Sistemas IA" data-pt="Sistemas IA">Sistemas IA</span><span data-en="$6M+ in Client Revenue" data-es="$6M+ Generados Para Clientes" data-pt="$6M+ Gerados Para Clientes">$6M+ Generados Para Clientes</span></span>
+    <span class="marquee-item"><i class="ph-fill ph-circle"></i><span class="mq-tag" data-en="Meta Ads" data-es="Meta Ads" data-pt="Meta Ads">Meta Ads</span><span data-en="3x ROAS Average" data-es="3x ROAS Promedio" data-pt="3x ROAS Médio">3x ROAS Promedio</span></span>
+    <span class="marquee-item"><i class="ph-fill ph-circle"></i><span class="mq-tag" data-en="SEO" data-es="SEO" data-pt="SEO">SEO</span><span data-en="Page-1 Rankings in 90 Days" data-es="Página 1 De Google En 90 Días" data-pt="Página 1 Do Google Em 90 Dias">Página 1 De Google En 90 Días</span></span>
+    <span class="marquee-item"><i class="ph-fill ph-circle"></i><span class="mq-tag" data-en="Content" data-es="Contenido" data-pt="Conteúdo">Contenido</span><span data-en="Daily Output, Zero Burnout" data-es="Producción Diaria, Cero Burnout" data-pt="Produção Diária, Zero Burnout">Producción Diaria, Cero Burnout</span></span>
+    <span class="marquee-item"><i class="ph-fill ph-circle"></i><span class="mq-tag" data-en="Automation" data-es="Automatización" data-pt="Automação">Automatización</span><span data-en="24/7 Lead Capture &amp; Follow-Up" data-es="Captura Y Seguimiento 24/7" data-pt="Captura E Acompanhamento 24/7">Captura Y Seguimiento 24/7</span></span>
   </div>
 </section>
 
 <!-- ABOUT -->
-<section id="about" class="sec">
+<section id="about" class="sec" aria-labelledby="about-title">
   <div class="sec-inner">
     <div class="about-grid">
       <div class="photo-wrap reveal">
-        <div class="photo-hex">
-          <div class="photo-inner">
-            <img src="david-photo.jpg" alt="David Medina"/>
+        <div class="photo-stamp" data-en="Self-Taught · Self-Made" data-es="Autodidacta · Self-Made" data-pt="Autodidata · Self-Made">Autodidacta · Self-Made</div>
+        <div class="photo-frame">
+          <div class="photo-frame-inner">
+            <img src="david-photo.jpg" alt="David Medina — Founder of I Launch U &amp; AI Implementation Expert" loading="lazy"/>
           </div>
         </div>
         <div class="photo-badge">
-          <span>$6M+</span>
-          <span data-en="Generated" data-es="Generado" data-pt="Gerado">Generado</span>
+          <strong>24 Mo.</strong>
+          <span data-en="To 7 Figures" data-es="A 7 Cifras" data-pt="A 7 Dígitos">A 7 Cifras</span>
         </div>
       </div>
-      <div class="about-text reveal reveal-d2">
-        <p class="sec-label" data-en="About Me" data-es="Sobre Mí" data-pt="Sobre Mim">Sobre Mí</p>
-        <h2 class="sec-title" data-en="The Visionary Behind <span>Your Success</span>" data-es="El Visionario Detrás <span>de Tu Éxito</span>" data-pt="O Visionário Por Trás <span>do Seu Sucesso</span>">El Visionario Detrás <span>de Tu Éxito</span></h2>
-        <div class="sec-line"></div>
-        <p data-en="I help businesses and entrepreneurs identify the right business model and implement the strategies that will help them scale predictably. I use the same proven methods that took me from nothing to seven figures in less than 2 years."
-           data-es="Ayudo a negocios y emprendedores a identificar el modelo de negocio correcto e implementar las estrategias que los ayudarán a escalar de manera predecible. Uso los mismos métodos probados que me llevaron de cero a siete cifras en menos de 2 años."
-           data-pt="Ajudo negócios e empreendedores a identificar o modelo de negócio certo e implementar as estratégias que os ajudarão a escalar de forma previsível. Uso os mesmos métodos comprovados que me levaram do zero a sete dígitos em menos de 2 anos.">
-          Ayudo a negocios y emprendedores a identificar el modelo de negocio correcto e implementar las estrategias que los ayudarán a escalar de manera predecible. Uso los mismos métodos probados que me llevaron de cero a siete cifras en menos de 2 años.
+      <div class="about-body reveal reveal-d2">
+        <span class="sec-eyebrow" data-en="My Story" data-es="Mi Historia" data-pt="Minha História">Mi Historia</span>
+        <h2 class="sec-title" id="about-title"
+            data-en="From Zero To <span class='accent'>7 Figures</span> In 24 Months — No Degree, No Connections"
+            data-es="De Cero A <span class='accent'>7 Cifras</span> En 24 Meses — Sin Título, Sin Conexiones"
+            data-pt="De Zero A <span class='accent'>7 Dígitos</span> Em 24 Meses — Sem Diploma, Sem Conexões">
+          De Cero A <span class="accent">7 Cifras</span> En 24 Meses — Sin Título, Sin Conexiones
+        </h2>
+        <div class="sec-rule"></div>
+        <p data-en="I never went to college. I didn't have funding, mentors in the family, or a network. What I had was <strong>hunger, the right mentors, and the right information</strong> — and the discipline to put it to work every day."
+           data-es="Nunca fui a la universidad. No tenía inversión, mentores en la familia ni una red de contactos. Lo que tenía era <strong>hambre, los mentores correctos y la información correcta</strong> — y la disciplina para ponerlo en práctica todos los días."
+           data-pt="Nunca fui à universidade. Não tinha investimento, mentores na família ou rede de contatos. O que eu tinha era <strong>fome, os mentores certos e a informação certa</strong> — e a disciplina para colocar em prática todos os dias.">
+          Nunca fui a la universidad. No tenía inversión, mentores en la familia ni una red de contactos. Lo que tenía era <strong>hambre, los mentores correctos y la información correcta</strong> — y la disciplina para ponerlo en práctica todos los días.
+        </p>
+        <p data-en="In under 24 months I scaled multiple businesses past seven figures using AI and marketing systems that work even while I sleep. <strong>AI didn't replace me — it multiplied me.</strong> It runs the follow-up, qualifies leads, posts content, books appointments, and handles ops so I can focus on growth."
+           data-es="En menos de 24 meses escalé múltiples negocios a más de siete cifras usando sistemas de IA y marketing que funcionan incluso mientras duermo. <strong>La IA no me reemplazó — me multiplicó.</strong> Hace el seguimiento, califica leads, publica contenido, agenda citas y maneja operaciones para que yo me enfoque en crecer."
+           data-pt="Em menos de 24 meses escalei múltiplos negócios a mais de sete dígitos usando sistemas de IA e marketing que funcionam até enquanto durmo. <strong>A IA não me substituiu — me multiplicou.</strong> Faz o acompanhamento, qualifica leads, publica conteúdo, agenda compromissos e gerencia operações para eu focar no crescimento.">
+          En menos de 24 meses escalé múltiples negocios a más de siete cifras usando sistemas de IA y marketing que funcionan incluso mientras duermo. <strong>La IA no me reemplazó — me multiplicó.</strong> Hace el seguimiento, califica leads, publica contenido, agenda citas y maneja operaciones para que yo me enfoque en crecer.
+        </p>
+        <p data-en="That's what I install in your business. Not theory. Not hype. The exact systems."
+           data-es="Eso es lo que instalo en tu negocio. No teoría. No humo. Los sistemas exactos."
+           data-pt="Isso é o que instalo no seu negócio. Sem teoria. Sem hype. Os sistemas exatos.">
+          Eso es lo que instalo en tu negocio. No teoría. No humo. Los sistemas exactos.
         </p>
 
+        <div class="about-pillars">
+          <div class="about-pillar">
+            <i class="ph-fill ph-graduation-cap"></i>
+            <div>
+              <h4 data-en="Self-Taught" data-es="Autodidacta" data-pt="Autodidata">Autodidacta</h4>
+              <p data-en="No degree. Mentor-driven. Battle-tested." data-es="Sin título. Aprendido con mentores. Probado en batalla." data-pt="Sem diploma. Aprendido com mentores. Testado em batalha.">Sin título. Aprendido con mentores. Probado en batalla.</p>
+            </div>
+          </div>
+          <div class="about-pillar">
+            <i class="ph-fill ph-rocket-launch"></i>
+            <div>
+              <h4 data-en="Self-Made" data-es="Self-Made" data-pt="Self-Made">Self-Made</h4>
+              <p data-en="Multiple 7-figure businesses, built from $0." data-es="Múltiples negocios de 7 cifras, construidos desde $0." data-pt="Múltiplos negócios de 7 dígitos, construídos do $0.">Múltiples negocios de 7 cifras, construidos desde $0.</p>
+            </div>
+          </div>
+          <div class="about-pillar">
+            <i class="ph-fill ph-brain"></i>
+            <div>
+              <h4 data-en="AI-Powered" data-es="Impulsado Por IA" data-pt="Movido A IA">Impulsado Por IA</h4>
+              <p data-en="Every system runs on the latest AI stack." data-es="Cada sistema corre sobre el stack de IA más avanzado." data-pt="Cada sistema roda no stack de IA mais avançado.">Cada sistema corre sobre el stack de IA más avanzado.</p>
+            </div>
+          </div>
+          <div class="about-pillar">
+            <i class="ph-fill ph-globe-hemisphere-west"></i>
+            <div>
+              <h4 data-en="Trilingual" data-es="Trilingüe" data-pt="Trilíngue">Trilingüe</h4>
+              <p data-en="EN · ES · PT — US and LATAM markets." data-es="EN · ES · PT — Mercados EE.UU. y LATAM." data-pt="EN · ES · PT — Mercados EUA e LATAM.">EN · ES · PT — Mercados EE.UU. y LATAM.</p>
+            </div>
+          </div>
+        </div>
+
         <div class="stats-row">
-          <div class="stat-card">
-            <span class="stat-num" style="font-size:1.6rem;">$6M+</span>
-            <span class="stat-lbl" data-en="Revenue Generated" data-es="Ingresos Generados" data-pt="Receita Gerada">Ingresos Generados</span>
+          <div class="stat-card reveal reveal-d1">
+            <span class="stat-num">$6M+</span>
+            <span class="stat-lbl" data-en="Client Revenue" data-es="Ingresos De Clientes" data-pt="Receita De Clientes">Ingresos De Clientes</span>
           </div>
-          <div class="stat-card">
+          <div class="stat-card reveal reveal-d2">
+            <span class="stat-num">24<small style="font-size:1rem;font-weight:700;">mo</small></span>
+            <span class="stat-lbl" data-en="To 7 Figures" data-es="A 7 Cifras" data-pt="A 7 Dígitos">A 7 Cifras</span>
+          </div>
+          <div class="stat-card reveal reveal-d3">
             <span class="stat-num">10+</span>
-            <span class="stat-lbl" data-en="Years in Marketing" data-es="Años en Marketing" data-pt="Anos em Marketing">Años en Marketing</span>
-          </div>
-          <div class="stat-card">
-            <span class="stat-num">7</span>
-            <span class="stat-lbl" data-en="Figure Business" data-es="Cifras en el Negocio" data-pt="Dígitos no Negócio">Cifras en el Negocio</span>
+            <span class="stat-lbl" data-en="Years Marketing" data-es="Años En Marketing" data-pt="Anos Em Marketing">Años En Marketing</span>
           </div>
         </div>
       </div>
@@ -345,178 +1610,330 @@ src="https://www.facebook.com/tr?id=734106759674043&ev=PageView&noscript=1"
   </div>
 </section>
 
-<!-- CLIENT LOGOS -->
-<section id="clients">
-  <p class="clients-label" data-en="Trusted By Great Brands" data-es="Marcas Que Confían en Mí" data-pt="Marcas Que Confiam em Mim">Marcas Que Confían en Mí</p>
+<!-- CLIENTS -->
+<section id="clients" aria-label="Trusted by great brands">
+  <p class="clients-label" data-en="Trusted By Operators Scaling With AI" data-es="La Confianza De Operadores Que Escalan Con IA" data-pt="A Confiança De Operadores Que Escalam Com IA">La Confianza De Operadores Que Escalan Con IA</p>
   <div class="logos-row">
-    <img src="logo-bluedaisy.jpg" alt="Blue Daisy Lawn Care"/>
-    <img src="logo-fidato.jpg" alt="Fidato Auto Sales"/>
-    <img src="logo-fivestar.jpg" alt="Five Star Auto Detailing"/>
-    <img src="logo-comicbook.png" alt="Comic Book Buy-Sell-Trade" style="filter:invert(1) brightness(0.7);"/>
+    <img src="logo-bluedaisy.jpg" alt="Blue Daisy Lawn Care" loading="lazy" width="120" height="44"/>
+    <img src="logo-shalem.jpg" alt="Shalem Caregiver Services" loading="lazy" width="120" height="44"/>
+    <img src="logo-fidato.jpg" alt="Fidato Auto Sales" loading="lazy" width="120" height="44"/>
+    <img src="logo-fivestar.jpg" alt="Five Star Auto Detailing" loading="lazy" width="120" height="44"/>
+    <img src="logo-comicbook.png" alt="Comic Book Buy-Sell-Trade" loading="lazy" width="120" height="44" style="filter:invert(1) grayscale(1) brightness(.5);"/>
+  </div>
+</section>
+
+<!-- AI EDGE / PILLARS -->
+<section id="ai" aria-labelledby="ai-title">
+  <div class="sec-inner">
+    <div class="ai-head">
+      <div class="ai-head-left reveal">
+        <span class="sec-eyebrow" data-en="The AI Edge" data-es="La Ventaja IA" data-pt="A Vantagem IA">La Ventaja IA</span>
+        <h2 class="sec-title" id="ai-title"
+            data-en="AI Doesn't Replace You. It <span class='accent'>Multiplies</span> You."
+            data-es="La IA No Te Reemplaza. Te <span class='accent'>Multiplica</span>."
+            data-pt="A IA Não Te Substitui. Te <span class='accent'>Multiplica</span>.">
+          La IA No Te Reemplaza. Te <span class="accent">Multiplica</span>.
+        </h2>
+        <div class="sec-rule"></div>
+      </div>
+      <div class="ai-head-right reveal reveal-d2">
+        <p data-en="Most owners are still running their business like it's 2015 — manually responding to leads, posting content by hand, chasing follow-ups, drowning in admin. <strong>AI ends that.</strong> We build systems that capture, qualify, follow up, sell, and report — 24/7. You stop being the bottleneck. Your business finally scales."
+           data-es="La mayoría de dueños sigue corriendo su negocio como en 2015 — respondiendo leads a mano, publicando contenido manualmente, persiguiendo seguimientos, ahogados en lo administrativo. <strong>La IA termina con eso.</strong> Construimos sistemas que captan, califican, hacen seguimiento, venden y reportan — 24/7. Dejas de ser el cuello de botella. Tu negocio finalmente escala."
+           data-pt="A maioria dos donos ainda toca o negócio como em 2015 — respondendo leads à mão, postando conteúdo manualmente, perseguindo follow-ups, afogados no administrativo. <strong>A IA acaba com isso.</strong> Construímos sistemas que captam, qualificam, fazem follow-up, vendem e reportam — 24/7. Você deixa de ser o gargalo. Seu negócio finalmente escala.">
+          La mayoría de dueños sigue corriendo su negocio como en 2015 — respondiendo leads a mano, publicando contenido manualmente, persiguiendo seguimientos, ahogados en lo administrativo. <strong>La IA termina con eso.</strong> Construimos sistemas que captan, califican, hacen seguimiento, venden y reportan — 24/7. Dejas de ser el cuello de botella. Tu negocio finalmente escala.
+        </p>
+      </div>
+    </div>
+
+    <div class="ai-pillars">
+      <div class="ai-pillar reveal" data-num="01">
+        <div class="ai-pillar-icon"><i class="ph-duotone ph-funnel-simple"></i></div>
+        <h3 data-en="AI Lead Capture" data-es="Captura De Leads Con IA" data-pt="Captura De Leads Com IA">Captura De Leads Con IA</h3>
+        <p data-en="Forms, chat agents, and qualification flows that work 24/7 — so no lead is ever lost while you're sleeping, eating, or with family."
+           data-es="Formularios, agentes de chat y flujos de calificación que trabajan 24/7 — para que ningún lead se pierda mientras duermes, comes o estás con tu familia."
+           data-pt="Formulários, agentes de chat e fluxos de qualificação que trabalham 24/7 — para que nenhum lead se perca enquanto você dorme, come ou está com a família.">
+          Formularios, agentes de chat y flujos de calificación que trabajan 24/7 — para que ningún lead se pierda mientras duermes, comes o estás con tu familia.
+        </p>
+      </div>
+      <div class="ai-pillar reveal reveal-d1" data-num="02">
+        <div class="ai-pillar-icon"><i class="ph-duotone ph-chat-circle-text"></i></div>
+        <h3 data-en="AI Follow-Up" data-es="Seguimiento Con IA" data-pt="Acompanhamento Com IA">Seguimiento Con IA</h3>
+        <p data-en="Conversational AI that nurtures leads, answers questions, and books appointments — closing deals while you sleep. 80% of sales come from follow-up. AI never forgets to follow up."
+           data-es="IA conversacional que nutre leads, responde preguntas y agenda citas — cerrando ventas mientras duermes. El 80% de las ventas viene del seguimiento. La IA nunca olvida hacer seguimiento."
+           data-pt="IA conversacional que nutre leads, responde perguntas e agenda compromissos — fechando vendas enquanto você dorme. 80% das vendas vêm do follow-up. A IA nunca esquece de fazer follow-up.">
+          IA conversacional que nutre leads, responde preguntas y agenda citas — cerrando ventas mientras duermes. El 80% de las ventas viene del seguimiento. La IA nunca olvida hacer seguimiento.
+        </p>
+      </div>
+      <div class="ai-pillar reveal reveal-d2" data-num="03">
+        <div class="ai-pillar-icon"><i class="ph-duotone ph-megaphone"></i></div>
+        <h3 data-en="AI Content Engine" data-es="Motor De Contenido IA" data-pt="Motor De Conteúdo IA">Motor De Contenido IA</h3>
+        <p data-en="Daily content for Instagram, TikTok, YouTube, blog, and email — produced, edited, and scheduled with AI assistance. More reach, more authority, more sales."
+           data-es="Contenido diario para Instagram, TikTok, YouTube, blog y email — producido, editado y programado con IA. Más alcance, más autoridad, más ventas."
+           data-pt="Conteúdo diário para Instagram, TikTok, YouTube, blog e e-mail — produzido, editado e programado com IA. Mais alcance, mais autoridade, mais vendas.">
+          Contenido diario para Instagram, TikTok, YouTube, blog y email — producido, editado y programado con IA. Más alcance, más autoridad, más ventas.
+        </p>
+      </div>
+      <div class="ai-pillar reveal reveal-d3" data-num="04">
+        <div class="ai-pillar-icon"><i class="ph-duotone ph-gear-six"></i></div>
+        <h3 data-en="AI Operations" data-es="Operaciones Con IA" data-pt="Operações Com IA">Operaciones Con IA</h3>
+        <p data-en="Scheduling, invoicing, reporting, reviews, and customer service — automated. Your business runs the boring stuff so you don't have to."
+           data-es="Agenda, facturación, reportes, reseñas y servicio al cliente — automatizado. Tu negocio se encarga de lo aburrido para que tú no tengas que hacerlo."
+           data-pt="Agendamento, faturamento, relatórios, avaliações e atendimento ao cliente — automatizado. Seu negócio cuida do chato para que você não precise.">
+          Agenda, facturación, reportes, reseñas y servicio al cliente — automatizado. Tu negocio se encarga de lo aburrido para que tú no tengas que hacerlo.
+        </p>
+      </div>
+    </div>
   </div>
 </section>
 
 <!-- SERVICES -->
-<section id="services" class="sec">
+<section id="services" class="sec" aria-labelledby="services-title">
   <div class="sec-inner">
-    <div class="text-center">
-      <p class="sec-label" data-en="What I Do" data-es="Lo Que Hago" data-pt="O Que Faço">Lo Que Hago</p>
-      <h2 class="sec-title" data-en="Transforming <span>Businesses</span>" data-es="Transformando <span>Negocios</span>" data-pt="Transformando <span>Negócios</span>">Transformando <span>Negocios</span></h2>
-      <div class="sec-line center"></div>
+    <div class="text-center reveal">
+      <span class="sec-eyebrow center" data-en="What We Build" data-es="Lo Que Construimos" data-pt="O Que Construímos">Lo Que Construimos</span>
+      <h2 class="sec-title" id="services-title"
+          data-en="The Full <span class='accent'>Growth Stack</span>"
+          data-es="El <span class='accent'>Stack De Crecimiento</span> Completo"
+          data-pt="O <span class='accent'>Stack De Crescimento</span> Completo">
+        El <span class="accent">Stack De Crecimiento</span> Completo
+      </h2>
+      <p class="sec-lead" data-en="Six core systems we install — separately or as a complete engine. Pick what you need; we tailor everything to your budget and your business."
+         data-es="Seis sistemas que instalamos — por separado o como un motor completo. Elige lo que necesites; adaptamos todo a tu presupuesto y tu negocio."
+         data-pt="Seis sistemas que instalamos — separados ou como um motor completo. Escolha o que precisar; adaptamos tudo ao seu orçamento e ao seu negócio.">
+        Seis sistemas que instalamos — por separado o como un motor completo. Elige lo que necesites; adaptamos todo a tu presupuesto y tu negocio.
+      </p>
+      <div class="sec-rule center"></div>
     </div>
     <div class="services-grid">
       <div class="svc-card reveal">
-        <div class="svc-icon"><i class="fas fa-briefcase"></i></div>
-        <h3 data-en="Business Coaching" data-es="Coaching de Negocios" data-pt="Coaching de Negócios">Coaching de Negocios</h3>
-        <p data-en="We help you identify the right business model and implement the exact strategies to scale predictably — using the same methods that generated 7 figures in under 2 years."
-           data-es="Te ayudamos a identificar el modelo de negocio correcto e implementar las estrategias exactas para escalar de manera predecible — usando los mismos métodos que generaron 7 cifras en menos de 2 años."
-           data-pt="Ajudamos a identificar o modelo de negócio certo e implementar as estratégias exatas para escalar de forma previsível.">Te ayudamos a identificar el modelo de negocio correcto e implementar las estrategias exactas para escalar de manera predecible — usando los mismos métodos que generaron 7 cifras en menos de 2 años.</p>
+        <span class="svc-num">01 — Flagship</span>
+        <div class="svc-icon" aria-hidden="true"><i class="ph-duotone ph-brain"></i></div>
+        <h3 data-en="AI Systems Implementation" data-es="Implementación De Sistemas IA" data-pt="Implementação De Sistemas IA">Implementación De Sistemas IA</h3>
+        <p data-en="We design and install the full AI engine for your business: lead capture, qualification, follow-up, scheduling, and 24/7 support. Your business gets an employee that never sleeps — and never asks for overtime."
+           data-es="Diseñamos e instalamos el motor completo de IA para tu negocio: captura de leads, calificación, seguimiento, agenda y soporte 24/7. Tu negocio gana un empleado que nunca duerme — y nunca pide horas extra."
+           data-pt="Projetamos e instalamos o motor completo de IA para seu negócio: captura de leads, qualificação, follow-up, agenda e suporte 24/7. Seu negócio ganha um funcionário que nunca dorme — e nunca pede hora extra.">
+          Diseñamos e instalamos el motor completo de IA para tu negocio: captura de leads, calificación, seguimiento, agenda y soporte 24/7. Tu negocio gana un empleado que nunca duerme — y nunca pide horas extra.
+        </p>
+        <span class="svc-tag" data-en="14–30 day setup" data-es="Setup en 14–30 días" data-pt="Setup em 14–30 dias">Setup en 14–30 días</span>
       </div>
+
       <div class="svc-card reveal reveal-d1">
-        <div class="svc-icon"><i class="fab fa-meta"></i></div>
+        <span class="svc-num">02 — Acquisition</span>
+        <div class="svc-icon" aria-hidden="true"><i class="ph-duotone ph-meta-logo"></i></div>
         <h3 data-en="Meta Ad Campaigns" data-es="Campañas Meta Ads" data-pt="Campanhas Meta Ads">Campañas Meta Ads</h3>
-        <p data-en="High-converting Facebook &amp; Instagram ad campaigns that bring in qualified leads and sales consistently."
-           data-es="Campañas de Facebook e Instagram de alta conversión que traen leads calificados y ventas de manera constante."
-           data-pt="Campanhas de Facebook e Instagram de alta conversão que geram leads qualificados e vendas de forma consistente.">Campañas de Facebook e Instagram de alta conversión que traen leads calificados y ventas de manera constante.</p>
+        <p data-en="High-converting Facebook &amp; Instagram campaigns powered by AI creative and real-time optimization. More qualified leads. Lower cost per acquisition. Predictable scale."
+           data-es="Campañas de Facebook e Instagram de alta conversión, impulsadas por creativo con IA y optimización en tiempo real. Más leads calificados. Menos costo por adquisición. Escala predecible."
+           data-pt="Campanhas de Facebook e Instagram de alta conversão, impulsionadas por criativo com IA e otimização em tempo real. Mais leads qualificados. Menor custo por aquisição. Escala previsível.">
+          Campañas de Facebook e Instagram de alta conversión, impulsadas por creativo con IA y optimización en tiempo real. Más leads calificados. Menos costo por adquisición. Escala predecible.
+        </p>
+        <span class="svc-tag" data-en="Pixel + CAPI included" data-es="Pixel + CAPI incluido" data-pt="Pixel + CAPI incluído">Pixel + CAPI incluido</span>
       </div>
+
       <div class="svc-card reveal reveal-d2">
-        <div class="svc-icon"><i class="fab fa-google"></i></div>
-        <h3 data-en="Google Ads Management" data-es="Gestión de Google Ads" data-pt="Gestão Google Ads">Gestión de Google Ads</h3>
-        <p data-en="Expert Google Ads management that puts your business in front of the right people at the right time — maximizing ROI on every dollar."
-           data-es="Gestión experta de Google Ads que pone tu negocio frente a las personas correctas en el momento correcto — maximizando el ROI en cada dólar."
-           data-pt="Gestão especializada de Google Ads que coloca seu negócio na frente das pessoas certas na hora certa.">Gestión experta de Google Ads que pone tu negocio frente a las personas correctas en el momento correcto — maximizando el ROI en cada dólar.</p>
+        <span class="svc-num">03 — Intent</span>
+        <div class="svc-icon" aria-hidden="true"><i class="ph-duotone ph-google-logo"></i></div>
+        <h3 data-en="Google Ads &amp; SEM" data-es="Google Ads &amp; SEM" data-pt="Google Ads &amp; SEM">Google Ads &amp; SEM</h3>
+        <p data-en="Expert Google Ads management that puts you in front of buyers actively searching. Every dollar tracked. Every conversion optimized. Maximum ROI."
+           data-es="Gestión experta de Google Ads que te coloca frente a compradores que buscan ahora. Cada dólar trackeado. Cada conversión optimizada. ROI máximo."
+           data-pt="Gestão especializada de Google Ads que coloca você na frente de compradores que estão pesquisando agora. Cada dólar rastreado. Cada conversão otimizada. ROI máximo.">
+          Gestión experta de Google Ads que te coloca frente a compradores que buscan ahora. Cada dólar trackeado. Cada conversión optimizada. ROI máximo.
+        </p>
+        <span class="svc-tag" data-en="Search · PMax · YouTube" data-es="Search · PMax · YouTube" data-pt="Search · PMax · YouTube">Search · PMax · YouTube</span>
       </div>
+
       <div class="svc-card reveal reveal-d3">
-        <div class="svc-icon"><i class="fas fa-robot"></i></div>
-        <h3 data-en="AI Integration &amp; Setup" data-es="Integración de IA" data-pt="Integração de IA">Integración de IA</h3>
-        <p data-en="We integrate AI into your business to automate tasks, streamline operations, and cut costs — so your business runs smarter and faster."
-           data-es="Integramos IA en tu negocio para automatizar tareas, optimizar operaciones y reducir costos — para que tu negocio funcione de manera más inteligente y rápida."
-           data-pt="Integramos IA no seu negócio para automatizar tarefas, otimizar operações e reduzir custos.">Integramos IA en tu negocio para automatizar tareas, optimizar operaciones y reducir costos — para que tu negocio funcione de manera más inteligente y rápida.</p>
+        <span class="svc-num">04 — Foundation</span>
+        <div class="svc-icon" aria-hidden="true"><i class="ph-duotone ph-globe-stand"></i></div>
+        <h3 data-en="Website + SEO Optimization" data-es="Sitio Web + Optimización SEO" data-pt="Site + Otimização SEO">Sitio Web + Optimización SEO</h3>
+        <p data-en="Fast-loading websites that convert visitors into customers — and rank on Google. Technical SEO, optimized content, perfect Core Web Vitals, and conversion-tuned design."
+           data-es="Sitios web rápidos que convierten visitantes en clientes — y rankean en Google. SEO técnico, contenido optimizado, Core Web Vitals perfectos y diseño afinado para conversión."
+           data-pt="Sites rápidos que convertem visitantes em clientes — e rankeiam no Google. SEO técnico, conteúdo otimizado, Core Web Vitals perfeitos e design afinado para conversão.">
+          Sitios web rápidos que convierten visitantes en clientes — y rankean en Google. SEO técnico, contenido optimizado, Core Web Vitals perfectos y diseño afinado para conversión.
+        </p>
+        <span class="svc-tag" data-en="Page-1 strategy" data-es="Estrategia Página 1" data-pt="Estratégia Página 1">Estrategia Página 1</span>
       </div>
+
       <div class="svc-card reveal reveal-d4">
-        <div class="svc-icon"><i class="fas fa-user-tie"></i></div>
-        <h3 data-en="AI Employee Setup" data-es="Empleados IA" data-pt="Funcionários IA">Empleados IA</h3>
-        <p data-en="Set up AI employees that work 24/7 — handling customer service, follow-ups, scheduling and more — so your business produces more than ever before."
-           data-es="Configura empleados de IA que trabajan 24/7 — manejando servicio al cliente, seguimientos, programación y más — para que tu negocio produzca más que nunca."
-           data-pt="Configure funcionários de IA que trabalham 24/7 — atendimento ao cliente, acompanhamentos, agendamentos e muito mais.">Configura empleados de IA que trabajan 24/7 — manejando servicio al cliente, seguimientos, programación y más — para que tu negocio produzca más que nunca.</p>
+        <span class="svc-num">05 — Authority</span>
+        <div class="svc-icon" aria-hidden="true"><i class="ph-duotone ph-pen-nib"></i></div>
+        <h3 data-en="Content Creation &amp; Management" data-es="Creación Y Gestión De Contenido" data-pt="Criação E Gestão De Conteúdo">Creación Y Gestión De Contenido</h3>
+        <p data-en="Strategy, production, and daily publishing across Instagram, TikTok, YouTube, blog, and email — written by humans, amplified by AI. More reach, more authority, more sales."
+           data-es="Estrategia, producción y publicación diaria en Instagram, TikTok, YouTube, blog y email — escrito por humanos, amplificado con IA. Más alcance, más autoridad, más ventas."
+           data-pt="Estratégia, produção e publicação diária no Instagram, TikTok, YouTube, blog e e-mail — escrito por humanos, amplificado com IA. Mais alcance, mais autoridade, mais vendas.">
+          Estrategia, producción y publicación diaria en Instagram, TikTok, YouTube, blog y email — escrito por humanos, amplificado con IA. Más alcance, más autoridad, más ventas.
+        </p>
+        <span class="svc-tag" data-en="Daily output, fully managed" data-es="Output diario, gestionado" data-pt="Output diário, gerenciado">Output diario, gestionado</span>
       </div>
+
       <div class="svc-card reveal reveal-d5">
-        <div class="svc-icon"><i class="fas fa-sliders"></i></div>
-        <h3 data-en="Tailored Growth Plans" data-es="Planes a Tu Medida" data-pt="Planos Personalizados">Planes a Tu Medida</h3>
-        <p data-en="We work within your budget and tailor every strategy to your specific needs — building the exact roadmap that will help you scale faster."
-           data-es="Trabajamos con tu presupuesto y adaptamos cada estrategia a tus necesidades específicas — construyendo el plan exacto que te ayudará a escalar más rápido."
-           data-pt="Trabalhamos com seu orçamento e adaptamos cada estratégia às suas necessidades específicas.">Trabajamos con tu presupuesto y adaptamos cada estrategia a tus necesidades específicas — construyendo el plan exacto que te ayudará a escalar más rápido.</p>
+        <span class="svc-num">06 — Production</span>
+        <div class="svc-icon" aria-hidden="true"><i class="ph-duotone ph-video-camera"></i></div>
+        <h3 data-en="Professional Video &amp; Photography" data-es="Video Y Fotografía Profesional" data-pt="Vídeo E Fotografia Profissional">Video Y Fotografía Profesional</h3>
+        <p data-en="Cinematic ad creative, organic content shoots, brand video, and product photography — built to stop the scroll and sell. The visual quality that separates premium brands from the rest."
+           data-es="Creativo cinematográfico para anuncios, sesiones de contenido orgánico, video de marca y fotografía de producto — diseñado para detener el scroll y vender. La calidad visual que separa marcas premium del resto."
+           data-pt="Criativo cinematográfico para anúncios, sessões de conteúdo orgânico, vídeo de marca e fotografia de produto — feito para parar o scroll e vender. A qualidade visual que separa marcas premium do resto.">
+          Creativo cinematográfico para anuncios, sesiones de contenido orgánico, video de marca y fotografía de producto — diseñado para detener el scroll y vender. La calidad visual que separa marcas premium del resto.
+        </p>
+        <span class="svc-tag" data-en="Ad-ready creative" data-es="Creativo listo para ads" data-pt="Criativo pronto para ads">Creativo listo para ads</span>
       </div>
     </div>
   </div>
 </section>
 
 <!-- PORTFOLIO -->
-<section id="portfolio" class="sec">
+<section id="portfolio" class="sec" aria-labelledby="portfolio-title">
   <div class="sec-inner">
-    <div class="text-center">
-      <p class="sec-label" data-en="My Work" data-es="Mi Trabajo" data-pt="Meu Trabalho">Mi Trabajo</p>
-      <h2 class="sec-title" data-en="Featured <span>Projects</span>" data-es="Proyectos <span>Destacados</span>" data-pt="Projetos <span>Destacados</span>">Proyectos <span>Destacados</span></h2>
-      <div class="sec-line center"></div>
+    <div class="text-center reveal">
+      <span class="sec-eyebrow center" data-en="Real Builds" data-es="Trabajo Real" data-pt="Trabalho Real">Trabajo Real</span>
+      <h2 class="sec-title" id="portfolio-title"
+          data-en="Brands Running On <span class='accent'>The System</span>"
+          data-es="Marcas Que Corren Sobre <span class='accent'>El Sistema</span>"
+          data-pt="Marcas Rodando Sobre <span class='accent'>O Sistema</span>">
+        Marcas Que Corren Sobre <span class="accent">El Sistema</span>
+      </h2>
+      <div class="sec-rule center"></div>
     </div>
     <div class="port-grid">
       <div class="port-card reveal">
-        <div class="port-bg" style="background:linear-gradient(135deg,#0a1628,#1a2a4a);">
-          <img src="logo-bluedaisy.jpg" alt="Blue Daisy"/>
+        <span class="port-num">01</span>
+        <div class="port-bg" style="background:linear-gradient(135deg,#061424,#0d2a50);">
+          <img src="logo-bluedaisy.jpg" alt="Blue Daisy Lawn Care logo" loading="lazy"/>
         </div>
         <div class="port-overlay">
           <span class="port-tag" data-en="Lawn Care" data-es="Jardinería" data-pt="Jardinagem">Jardinería</span>
           <h3>Blue Daisy Lawn Care</h3>
-          <p data-en="Full website + GHL CRM integration + lead generation system."
-             data-es="Sitio web completo + integración GHL CRM + sistema de generación de leads."
-             data-pt="Site completo + integração GHL CRM + sistema de geração de leads.">Sitio web completo + integración GHL CRM + sistema de generación de leads.</p>
-          <a href="https://bluedaisylawncare.com" target="_blank" class="port-link">Ver Sitio →</a>
+          <p data-en="Full website + GHL CRM + AI lead-capture system bringing in qualified jobs on autopilot."
+             data-es="Sitio web completo + CRM GHL + sistema IA de captura de leads trayendo trabajos calificados en automático."
+             data-pt="Site completo + CRM GHL + sistema IA de captura de leads trazendo trabalhos qualificados em automático.">
+            Sitio web completo + CRM GHL + sistema IA de captura de leads trayendo trabajos calificados en automático.
+          </p>
+          <a href="https://bluedaisylawncare.com" target="_blank" rel="noopener" class="port-link">
+            <span data-en="View Site" data-es="Ver Sitio" data-pt="Ver Site">Ver Sitio</span>
+            <i class="ph ph-arrow-right" aria-hidden="true"></i>
+          </a>
         </div>
       </div>
       <div class="port-card reveal reveal-d1">
-        <div class="port-bg" style="background:linear-gradient(135deg,#1a0a28,#2d1545);">
-          <img src="logo-shalem.jpg" alt="Shalem Caregiver Services"/>
+        <span class="port-num">02</span>
+        <div class="port-bg" style="background:linear-gradient(135deg,#140a20,#261040);">
+          <img src="logo-shalem.jpg" alt="Shalem Caregiver Services logo" loading="lazy"/>
         </div>
         <div class="port-overlay">
           <span class="port-tag" data-en="Healthcare" data-es="Salud" data-pt="Saúde">Salud</span>
           <h3>Shalem Caregiver Services</h3>
-          <p data-en="Professional healthcare services website with appointment booking."
-             data-es="Sitio web de servicios de salud con sistema de reserva de citas."
-             data-pt="Site de serviços de saúde com sistema de agendamento.">Sitio web de servicios de salud con sistema de reserva de citas.</p>
-          <a href="https://shalemcaregiverservices.com" target="_blank" class="port-link">Ver Sitio →</a>
+          <p data-en="Healthcare landing pages + Meta CAPI tracking + AI-powered appointment booking."
+             data-es="Landing pages de salud + tracking Meta CAPI + reserva de citas con IA."
+             data-pt="Landing pages de saúde + rastreamento Meta CAPI + agendamento com IA.">
+            Landing pages de salud + tracking Meta CAPI + reserva de citas con IA.
+          </p>
+          <a href="https://shalemcaregiverservices.com" target="_blank" rel="noopener" class="port-link">
+            <span data-en="View Site" data-es="Ver Sitio" data-pt="Ver Site">Ver Sitio</span>
+            <i class="ph ph-arrow-right" aria-hidden="true"></i>
+          </a>
         </div>
       </div>
       <div class="port-card reveal reveal-d2">
-        <div class="port-bg" style="background:linear-gradient(135deg,#1a1000,#2d1800);">
-          <img src="logo-fidato.jpg" alt="Fidato Auto Sales"/>
+        <span class="port-num">03</span>
+        <div class="port-bg" style="background:linear-gradient(135deg,#140a00,#241400);">
+          <img src="logo-fidato.jpg" alt="Fidato Auto Sales logo" loading="lazy"/>
         </div>
         <div class="port-overlay">
           <span class="port-tag" data-en="Auto Sales" data-es="Autos" data-pt="Automóveis">Autos</span>
           <h3>Fidato Auto Sales</h3>
-          <p data-en="Premium auto dealership branding and digital marketing campaign."
-             data-es="Branding premium para concesionaria y campaña de marketing digital."
-             data-pt="Branding premium para concessionária e campanha de marketing digital.">Branding premium para concesionaria y campaña de marketing digital.</p>
-          <a href="#" class="port-link" data-en="View Project →" data-es="Ver Proyecto →" data-pt="Ver Projeto →">Ver Proyecto →</a>
+          <p data-en="Premium dealership branding, paid acquisition, and AI follow-up sequences turning browsers into buyers."
+             data-es="Branding premium de concesionaria, adquisición paga y secuencias IA de seguimiento que convierten browsers en compradores."
+             data-pt="Branding premium de concessionária, aquisição paga e sequências IA de follow-up convertendo browsers em compradores.">
+            Branding premium de concesionaria, adquisición paga y secuencias IA de seguimiento que convierten browsers en compradores.
+          </p>
+          <a href="#contact" class="port-link">
+            <span data-en="Request Case Study" data-es="Solicitar Caso De Estudio" data-pt="Solicitar Estudo De Caso">Solicitar Caso De Estudio</span>
+            <i class="ph ph-arrow-right" aria-hidden="true"></i>
+          </a>
         </div>
       </div>
       <div class="port-card reveal reveal-d3">
-        <div class="port-bg" style="background:linear-gradient(135deg,#00101a,#001a2d);">
-          <img src="logo-fivestar.jpg" alt="Five Star Auto Detailing"/>
+        <span class="port-num">04</span>
+        <div class="port-bg" style="background:linear-gradient(135deg,#000e18,#001824);">
+          <img src="logo-fivestar.jpg" alt="Five Star Auto Detailing logo" loading="lazy"/>
         </div>
         <div class="port-overlay">
           <span class="port-tag" data-en="Detailing" data-es="Detallado" data-pt="Detalhamento">Detallado</span>
           <h3>Five Star Auto Detailing</h3>
-          <p data-en="Brand identity, social media strategy, and customer acquisition system."
-             data-es="Identidad de marca, estrategia en redes sociales y sistema de adquisición de clientes."
-             data-pt="Identidade de marca, estratégia em redes sociais e sistema de aquisição de clientes.">Identidad de marca, estrategia en redes sociales y sistema de adquisición de clientes.</p>
-          <a href="#" class="port-link" data-en="View Project →" data-es="Ver Proyecto →" data-pt="Ver Projeto →">Ver Proyecto →</a>
+          <p data-en="Brand identity, content engine, and AI-driven customer acquisition system."
+             data-es="Identidad de marca, motor de contenido y sistema IA de adquisición de clientes."
+             data-pt="Identidade de marca, motor de conteúdo e sistema IA de aquisição de clientes.">
+            Identidad de marca, motor de contenido y sistema IA de adquisición de clientes.
+          </p>
+          <a href="#contact" class="port-link">
+            <span data-en="Request Case Study" data-es="Solicitar Caso De Estudio" data-pt="Solicitar Estudo De Caso">Solicitar Caso De Estudio</span>
+            <i class="ph ph-arrow-right" aria-hidden="true"></i>
+          </a>
         </div>
       </div>
       <div class="port-card reveal reveal-d4">
-        <div class="port-bg" style="background:linear-gradient(135deg,#0f1a00,#1a2d00);">
-          <div style="text-align:center;color:rgba(245,166,35,.6);">
-            <i class="fas fa-truck" style="font-size:4rem;display:block;margin-bottom:12px;"></i>
-            <div style="font-weight:700;font-size:1.1rem;color:#fff;">CDL Training</div>
-            <div style="font-size:.8rem;color:rgba(255,255,255,.5);">of Tampa</div>
+        <span class="port-num">05</span>
+        <div class="port-bg" style="background:linear-gradient(135deg,#0f1400,#1a2200);">
+          <div style="text-align:center;">
+            <i class="ph ph-truck" style="font-size:3.5rem;color:rgba(245,138,31,.65);display:block;margin-bottom:10px;" aria-hidden="true"></i>
+            <div style="font-weight:800;font-size:1rem;color:var(--white);letter-spacing:1px;">CDL Training</div>
+            <div style="font-size:.8rem;color:var(--text2);">of Tampa</div>
           </div>
         </div>
         <div class="port-overlay">
           <span class="port-tag" data-en="Education" data-es="Educación" data-pt="Educação">Educación</span>
           <h3>CDL Training of Tampa</h3>
-          <p data-en="Lead generation and digital marketing strategy for CDL training school."
-             data-es="Generación de leads y estrategia de marketing digital para escuela de CDL."
-             data-pt="Geração de leads e estratégia de marketing digital para escola de CDL.">Generación de leads y estrategia de marketing digital para escuela de CDL.</p>
-          <a href="#" class="port-link" data-en="View Project →" data-es="Ver Proyecto →" data-pt="Ver Projeto →">Ver Proyecto →</a>
+          <p data-en="Trilingual landing pages, Meta + Google campaigns, and AI lead routing for CDL school."
+             data-es="Landing pages trilingües, campañas Meta + Google y enrutamiento IA de leads para escuela de CDL."
+             data-pt="Landing pages trilíngues, campanhas Meta + Google e roteamento IA de leads para escola de CDL.">
+            Landing pages trilingües, campañas Meta + Google y enrutamiento IA de leads para escuela de CDL.
+          </p>
+          <a href="https://cdl-landing-es.vercel.app/" target="_blank" rel="noopener" class="port-link">
+            <span data-en="View Site" data-es="Ver Sitio" data-pt="Ver Site">Ver Sitio</span>
+            <i class="ph ph-arrow-right" aria-hidden="true"></i>
+          </a>
         </div>
       </div>
       <div class="port-card reveal reveal-d5">
-        <div class="port-bg" style="background:linear-gradient(135deg,#1a001a,#2d002d);">
-          <div style="text-align:center;color:rgba(245,166,35,.6);">
-            <i class="fas fa-building" style="font-size:4rem;display:block;margin-bottom:12px;"></i>
-            <div style="font-weight:700;font-size:1.1rem;color:#fff;">Antilles</div>
-            <div style="font-size:.8rem;color:rgba(255,255,255,.5);">Promotions</div>
+        <span class="port-num">06</span>
+        <div class="port-bg" style="background:linear-gradient(135deg,#140018,#220028);">
+          <div style="text-align:center;">
+            <i class="ph ph-globe-hemisphere-west" style="font-size:3.5rem;color:rgba(245,138,31,.65);display:block;margin-bottom:10px;" aria-hidden="true"></i>
+            <div style="font-weight:800;font-size:1rem;color:var(--white);letter-spacing:1px;">Antilles</div>
+            <div style="font-size:.8rem;color:var(--text2);">Promotions PR</div>
           </div>
         </div>
         <div class="port-overlay">
           <span class="port-tag" data-en="Marketing" data-es="Marketing" data-pt="Marketing">Marketing</span>
           <h3>Antilles Promotions</h3>
-          <p data-en="Full-scale marketing strategy and CRM setup with 887 active contacts."
-             data-es="Estrategia de marketing a gran escala y configuración de CRM con 887 contactos activos."
-             data-pt="Estratégia de marketing em grande escala e configuração de CRM com 887 contatos ativos.">Estrategia de marketing a gran escala y configuración de CRM con 887 contactos activos.</p>
-          <a href="#" class="port-link" data-en="View Project →" data-es="Ver Proyecto →" data-pt="Ver Projeto →">Ver Proyecto →</a>
+          <p data-en="Full-stack marketing system with CRM + automation — 887 active contacts and growing on autopilot."
+             data-es="Sistema de marketing full-stack con CRM + automatización — 887 contactos activos creciendo en automático."
+             data-pt="Sistema de marketing full-stack com CRM + automação — 887 contatos ativos crescendo em automático.">
+            Sistema de marketing full-stack con CRM + automatización — 887 contactos activos creciendo en automático.
+          </p>
+          <a href="https://www.antillespromotionspr.com" target="_blank" rel="noopener" class="port-link">
+            <span data-en="View Site" data-es="Ver Sitio" data-pt="Ver Site">Ver Sitio</span>
+            <i class="ph ph-arrow-right" aria-hidden="true"></i>
+          </a>
         </div>
       </div>
-      <div class="port-card reveal reveal-d6" style="margin-top:24px;grid-column:span 1;">
-        <div class="port-bg" style="background:linear-gradient(135deg,#1a1a1a,#000);">
-          <img src="logo-comicbook.png" alt="Comic Book" style="max-width:65%;max-height:65%;filter:invert(1) brightness(0.8);object-fit:contain;"/>
+      <div class="port-card reveal reveal-d6" style="grid-column:1;margin-top:0;">
+        <span class="port-num">07</span>
+        <div class="port-bg" style="background:linear-gradient(135deg,#111,#000);">
+          <img src="logo-comicbook.png" alt="Comic Book Buy-Sell-Trade logo" loading="lazy"
+               style="max-width:62%;max-height:62%;filter:invert(1) brightness(.8);object-fit:contain;"/>
         </div>
         <div class="port-overlay">
           <span class="port-tag" data-en="Retail" data-es="Retail" data-pt="Varejo">Retail</span>
           <h3>Comic Book Buy-Sell-Trade</h3>
-          <p data-en="Digital marketing strategy and social media growth for comic book retail store."
-             data-es="Estrategia de marketing digital y crecimiento en redes sociales para tienda de cómics."
-             data-pt="Estratégia de marketing digital e crescimento nas redes sociais para loja de quadrinhos.">Estrategia de marketing digital y crecimiento en redes sociales para tienda de cómics.</p>
-          <a href="#" class="port-link" data-en="View Project →" data-es="Ver Proyecto →" data-pt="Ver Projeto →">Ver Proyecto →</a>
+          <p data-en="Digital strategy + content engine + Meta ads scaling a brick-and-mortar comic shop into a national brand."
+             data-es="Estrategia digital + motor de contenido + Meta ads escalando una tienda física de cómics a marca nacional."
+             data-pt="Estratégia digital + motor de conteúdo + Meta ads escalando uma loja física de quadrinhos a marca nacional.">
+            Estrategia digital + motor de contenido + Meta ads escalando una tienda física de cómics a marca nacional.
+          </p>
+          <a href="#contact" class="port-link">
+            <span data-en="Request Case Study" data-es="Solicitar Caso De Estudio" data-pt="Solicitar Estudo De Caso">Solicitar Caso De Estudio</span>
+            <i class="ph ph-arrow-right" aria-hidden="true"></i>
+          </a>
         </div>
       </div>
     </div>
@@ -524,281 +1941,585 @@ src="https://www.facebook.com/tr?id=734106759674043&ev=PageView&noscript=1"
 </section>
 
 <!-- TESTIMONIALS -->
-<section id="testimonials" class="sec">
+<section id="testimonials" class="sec" aria-labelledby="testi-title">
   <div class="sec-inner">
-    <div class="text-center">
-      <p class="sec-label" data-en="Success Stories" data-es="Casos de Éxito" data-pt="Casos de Sucesso">Casos de Éxito</p>
-      <h2 class="sec-title" data-en="What My <span>Clients Say</span>" data-es="Lo Que Dicen <span>Mis Clientes</span>" data-pt="O Que Dizem <span>Meus Clientes</span>">Lo Que Dicen <span>Mis Clientes</span></h2>
-      <div class="sec-line center"></div>
+    <div class="text-center reveal">
+      <span class="sec-eyebrow center" data-en="Real Results" data-es="Resultados Reales" data-pt="Resultados Reais">Resultados Reales</span>
+      <h2 class="sec-title" id="testi-title"
+          data-en="What Clients Say About <span class='accent'>The System</span>"
+          data-es="Lo Que Dicen Los Clientes Sobre <span class='accent'>El Sistema</span>"
+          data-pt="O Que Dizem Os Clientes Sobre <span class='accent'>O Sistema</span>">
+        Lo Que Dicen Los Clientes Sobre <span class="accent">El Sistema</span>
+      </h2>
+      <div class="sec-rule center"></div>
     </div>
     <div class="testi-grid">
-      <div class="testi-card reveal">
-        <div class="testi-quote">"</div>
-        <div class="stars">★★★★★</div>
+      <div class="testi-card reveal" role="article">
+        <div class="testi-bigquote" aria-hidden="true">"</div>
+        <div class="stars" aria-label="5 stars">
+          <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+        </div>
+        <span class="testi-result" data-en="3× Revenue · 6 Months" data-es="3× Ingresos · 6 Meses" data-pt="3× Receita · 6 Meses">3× Ingresos · 6 Meses</span>
         <p class="testi-text"
-           data-en="David completely transformed my business. In 6 months I tripled my revenue and finally have a clear strategy. His coaching is worth every penny."
-           data-es="David transformó completamente mi negocio. En 6 meses tripliqué mis ingresos y finalmente tengo una estrategia clara. Su coaching vale cada centavo."
-           data-pt="David transformou completamente meu negócio. Em 6 meses triплiquei minha receita e finalmente tenho uma estratégia clara.">
-          David transformó completamente mi negocio. En 6 meses tripliqué mis ingresos y finalmente tengo una estrategia clara. Su coaching vale cada centavo.
+           data-en="David installed an AI system that qualifies leads and books appointments while I sleep. In 6 months I tripled my revenue and stopped working 14-hour days. <strong>It's not coaching — it's an unfair advantage.</strong>"
+           data-es="David instaló un sistema de IA que califica leads y agenda citas mientras duermo. En 6 meses tripliqué mis ingresos y dejé de trabajar 14 horas al día. <strong>No es coaching — es una ventaja desleal.</strong>"
+           data-pt="David instalou um sistema de IA que qualifica leads e agenda compromissos enquanto durmo. Em 6 meses tripliquei minha receita e parei de trabalhar 14 horas por dia. <strong>Não é coaching — é uma vantagem injusta.</strong>">
+          David instaló un sistema de IA que califica leads y agenda citas mientras duermo. En 6 meses tripliqué mis ingresos y dejé de trabajar 14 horas al día. <strong>No es coaching — es una ventaja desleal.</strong>
         </p>
         <div class="testi-author">
-          <div class="testi-avatar">M</div>
-          <div class="testi-info">
-            <h4>María González</h4>
-            <span data-en="Founder, MG Beauty" data-es="Fundadora, MG Beauty" data-pt="Fundadora, MG Beauty">Fundadora, MG Beauty</span>
+          <div class="testi-avatar" aria-hidden="true">M</div>
+          <div>
+            <div class="testi-name">María González</div>
+            <div class="testi-role" data-en="Founder, MG Beauty" data-es="Fundadora, MG Beauty" data-pt="Fundadora, MG Beauty">Fundadora, MG Beauty</div>
           </div>
         </div>
       </div>
-      <div class="testi-card reveal reveal-d2">
-        <div class="testi-quote">"</div>
-        <div class="stars">★★★★★</div>
+      <div class="testi-card reveal reveal-d2" role="article">
+        <div class="testi-bigquote" aria-hidden="true">"</div>
+        <div class="stars" aria-label="5 stars">
+          <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+        </div>
+        <span class="testi-result" data-en="15K Followers · 3 Months" data-es="15K Seguidores · 3 Meses" data-pt="15K Seguidores · 3 Meses">15K Seguidores · 3 Meses</span>
         <p class="testi-text"
-           data-en="Working with David was a game changer. He helped us launch our brand from scratch and reach 15K followers in just 3 months."
-           data-es="Trabajar con David fue un cambio de juego total. Nos ayudó a lanzar nuestra marca desde cero y llegar a 15K seguidores en solo 3 meses."
-           data-pt="Trabalhar com David foi uma virada de jogo. Ele nos ajudou a lançar nossa marca do zero e chegar a 15K seguidores em apenas 3 meses.">
-          Trabajar con David fue un cambio de juego total. Nos ayudó a lanzar nuestra marca desde cero y llegar a 15K seguidores en solo 3 meses.
+           data-en="We launched from zero. The content engine + ads system David built took us to 15K followers in 3 months — and to more bookings than we can handle. <strong>The phone hasn't stopped ringing.</strong>"
+           data-es="Lanzamos desde cero. El motor de contenido + sistema de ads que David construyó nos llevó a 15K seguidores en 3 meses — y a más reservas de las que podemos manejar. <strong>El teléfono no ha parado de sonar.</strong>"
+           data-pt="Lançamos do zero. O motor de conteúdo + sistema de ads que David construiu nos levou a 15K seguidores em 3 meses — e a mais reservas do que conseguimos atender. <strong>O telefone não parou de tocar.</strong>">
+          Lanzamos desde cero. El motor de contenido + sistema de ads que David construyó nos llevó a 15K seguidores en 3 meses — y a más reservas de las que podemos manejar. <strong>El teléfono no ha parado de sonar.</strong>
         </p>
         <div class="testi-author">
-          <div class="testi-avatar">C</div>
-          <div class="testi-info">
-            <h4>Carlos Rivera</h4>
-            <span data-en="Owner, Sabor Latino" data-es="Dueño, Sabor Latino" data-pt="Proprietário, Sabor Latino">Dueño, Sabor Latino</span>
+          <div class="testi-avatar" aria-hidden="true">C</div>
+          <div>
+            <div class="testi-name">Carlos Rivera</div>
+            <div class="testi-role" data-en="Owner, Sabor Latino" data-es="Dueño, Sabor Latino" data-pt="Proprietário, Sabor Latino">Dueño, Sabor Latino</div>
           </div>
         </div>
       </div>
-      <div class="testi-card reveal reveal-d4">
-        <div class="testi-quote">"</div>
-        <div class="stars">★★★★★</div>
+      <div class="testi-card reveal reveal-d4" role="article">
+        <div class="testi-bigquote" aria-hidden="true">"</div>
+        <div class="stars" aria-label="5 stars">
+          <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+        </div>
+        <span class="testi-result" data-en="$0 → $50K · Month 1" data-es="$0 → $50K · Mes 1" data-pt="$0 → $50K · Mês 1">$0 → $50K · Mes 1</span>
         <p class="testi-text"
-           data-en="David's strategy took my online course from zero to $50K in the first month. His knowledge is unmatched. I highly recommend him to any entrepreneur."
-           data-es="La estrategia de David llevó mi curso online de cero a $50K en el primer mes. Su conocimiento no tiene comparación. Lo recomiendo a cualquier emprendedor."
-           data-pt="A estratégia de David levou meu curso online de zero a $50K no primeiro mês. Seu conhecimento não tem comparação. Recomendo a qualquer empreendedor.">
-          La estrategia de David llevó mi curso online de cero a $50K en el primer mes. Su conocimiento no tiene comparación. Lo recomiendo a cualquier emprendedor.
+           data-en="David's marketing + AI system took my online course from idea to $50K in the first month. The system does 80% of the work for me. <strong>I just show up and serve the students.</strong>"
+           data-es="El sistema de marketing + IA de David llevó mi curso online de idea a $50K en el primer mes. El sistema hace el 80% del trabajo por mí. <strong>Yo solo aparezco y atiendo a los estudiantes.</strong>"
+           data-pt="O sistema de marketing + IA do David levou meu curso online de ideia a $50K no primeiro mês. O sistema faz 80% do trabalho por mim. <strong>Eu só apareço e atendo os alunos.</strong>">
+          El sistema de marketing + IA de David llevó mi curso online de idea a $50K en el primer mes. El sistema hace el 80% del trabajo por mí. <strong>Yo solo aparezco y atiendo a los estudiantes.</strong>
         </p>
         <div class="testi-author">
-          <div class="testi-avatar">A</div>
-          <div class="testi-info">
-            <h4>Ana Pereira</h4>
-            <span data-en="Online Educator" data-es="Educadora Online" data-pt="Educadora Online">Educadora Online</span>
+          <div class="testi-avatar" aria-hidden="true">A</div>
+          <div>
+            <div class="testi-name">Ana Pereira</div>
+            <div class="testi-role" data-en="Online Educator" data-es="Educadora Online" data-pt="Educadora Online">Educadora Online</div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="sec" aria-labelledby="faq-title">
+  <div class="sec-inner">
+    <div class="text-center reveal">
+      <span class="sec-eyebrow center" data-en="Questions, Answered" data-es="Preguntas, Respondidas" data-pt="Perguntas, Respondidas">Preguntas, Respondidas</span>
+      <h2 class="sec-title" id="faq-title"
+          data-en="Frequently <span class='accent'>Asked</span>"
+          data-es="Lo Más <span class='accent'>Preguntado</span>"
+          data-pt="As Mais <span class='accent'>Perguntadas</span>">
+        Lo Más <span class="accent">Preguntado</span>
+      </h2>
+      <div class="sec-rule center"></div>
+    </div>
+    <div class="faq-grid">
+      <div class="faq-item reveal">
+        <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
+          <span data-en="What is an &#39;AI system&#39; for a business?" data-es="¿Qué Es Un &quot;Sistema De IA&quot; Para Un Negocio?" data-pt="O Que É Um &quot;Sistema De IA&quot; Para Um Negócio?">¿Qué Es Un "Sistema De IA" Para Un Negocio?</span>
+          <i class="ph-bold ph-plus" aria-hidden="true"></i>
+        </button>
+        <div class="faq-a"><div class="faq-a-inner"
+          data-en="It's a connected set of automated tools and AI agents that <strong>capture leads, qualify them, follow up, close sales, and run operations 24/7</strong> — without you having to be present. Think of it as hiring an employee who never sleeps, never forgets, and never asks for a raise."
+          data-es="Es un conjunto conectado de herramientas y agentes de IA que <strong>captan leads, los califican, hacen seguimiento, cierran ventas y manejan operaciones 24/7</strong> — sin que tengas que estar presente. Piénsalo como contratar a un empleado que nunca duerme, nunca olvida y nunca pide un aumento."
+          data-pt="É um conjunto conectado de ferramentas e agentes de IA que <strong>captam leads, qualificam, fazem follow-up, fecham vendas e operam 24/7</strong> — sem você precisar estar presente. Pense como contratar um funcionário que nunca dorme, nunca esquece e nunca pede aumento.">
+          Es un conjunto conectado de herramientas y agentes de IA que <strong>captan leads, los califican, hacen seguimiento, cierran ventas y manejan operaciones 24/7</strong> — sin que tengas que estar presente. Piénsalo como contratar a un empleado que nunca duerme, nunca olvida y nunca pide un aumento.
+        </div></div>
+      </div>
+      <div class="faq-item reveal reveal-d1">
+        <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
+          <span data-en="Do I need to know technology for this to work?" data-es="¿Necesito Saber De Tecnología Para Que Esto Funcione?" data-pt="Preciso Saber De Tecnologia Para Funcionar?">¿Necesito Saber De Tecnología Para Que Esto Funcione?</span>
+          <i class="ph-bold ph-plus" aria-hidden="true"></i>
+        </button>
+        <div class="faq-a"><div class="faq-a-inner"
+          data-en="<strong>No.</strong> You run your business. We design, install, train, and maintain the system. You only see the dashboard with results — leads coming in, appointments booked, sales closing. Zero learning curve."
+          data-es="<strong>No.</strong> Tú diriges tu negocio. Nosotros diseñamos, instalamos, entrenamos y mantenemos el sistema. Tú solo ves el dashboard con resultados — leads entrando, citas agendadas, ventas cerrando. Cero curva de aprendizaje."
+          data-pt="<strong>Não.</strong> Você toca seu negócio. Nós projetamos, instalamos, treinamos e mantemos o sistema. Você só vê o painel com resultados — leads entrando, compromissos agendados, vendas fechando. Zero curva de aprendizado.">
+          <strong>No.</strong> Tú diriges tu negocio. Nosotros diseñamos, instalamos, entrenamos y mantenemos el sistema. Tú solo ves el dashboard con resultados — leads entrando, citas agendadas, ventas cerrando. Cero curva de aprendizaje.
+        </div></div>
+      </div>
+      <div class="faq-item reveal reveal-d2">
+        <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
+          <span data-en="How long until I see results?" data-es="¿En Cuánto Tiempo Veo Resultados?" data-pt="Em Quanto Tempo Vejo Resultados?">¿En Cuánto Tiempo Veo Resultados?</span>
+          <i class="ph-bold ph-plus" aria-hidden="true"></i>
+        </button>
+        <div class="faq-a"><div class="faq-a-inner"
+          data-en="Systems go live in <strong>14–30 days</strong>. Marketing results — leads, appointments, sales — start showing in the <strong>first week</strong> after we launch campaigns. Most clients see meaningful revenue lift in the first 60–90 days."
+          data-es="Los sistemas quedan operando en <strong>14–30 días</strong>. Los resultados de marketing — leads, citas, ventas — los ves desde la <strong>primera semana</strong> cuando lanzamos campañas. La mayoría de clientes ve un aumento real de ingresos en los primeros 60–90 días."
+          data-pt="Os sistemas ficam no ar em <strong>14–30 dias</strong>. Resultados de marketing — leads, compromissos, vendas — começam na <strong>primeira semana</strong> após o lançamento. A maioria dos clientes vê aumento real de receita nos primeiros 60–90 dias.">
+          Los sistemas quedan operando en <strong>14–30 días</strong>. Los resultados de marketing — leads, citas, ventas — los ves desde la <strong>primera semana</strong> cuando lanzamos campañas. La mayoría de clientes ve un aumento real de ingresos en los primeros 60–90 días.
+        </div></div>
+      </div>
+      <div class="faq-item reveal reveal-d3">
+        <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
+          <span data-en="Do you work with any industry?" data-es="¿Trabajas Con Cualquier Industria?" data-pt="Você Trabalha Com Qualquer Setor?">¿Trabajas Con Cualquier Industria?</span>
+          <i class="ph-bold ph-plus" aria-hidden="true"></i>
+        </button>
+        <div class="faq-a"><div class="faq-a-inner"
+          data-en="I work with <strong>service businesses, e-commerce, education, healthcare, retail, and independent professionals</strong>. If your business has customers, AI + marketing applies. Industries we've shipped in: lawn care, auto sales, detailing, caregiving, comics retail, CDL training, online education, beauty, and more."
+          data-es="Trabajo con <strong>negocios de servicios, e-commerce, educación, salud, retail y profesionales independientes</strong>. Si tu negocio tiene clientes, IA + marketing aplica. Industrias en las que hemos lanzado: jardinería, venta de autos, detallado, cuidado, retail de cómics, escuelas CDL, educación online, belleza y más."
+          data-pt="Trabalho com <strong>negócios de serviços, e-commerce, educação, saúde, varejo e profissionais autônomos</strong>. Se seu negócio tem clientes, IA + marketing se aplica. Setores em que entregamos: jardinagem, venda de carros, detalhamento, cuidados, varejo de quadrinhos, escolas CDL, educação online, beleza e mais.">
+          Trabajo con <strong>negocios de servicios, e-commerce, educación, salud, retail y profesionales independientes</strong>. Si tu negocio tiene clientes, IA + marketing aplica. Industrias en las que hemos lanzado: jardinería, venta de autos, detallado, cuidado, retail de cómics, escuelas CDL, educación online, belleza y más.
+        </div></div>
+      </div>
+      <div class="faq-item reveal reveal-d4">
+        <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
+          <span data-en="How much does it cost?" data-es="¿Cuánto Cuesta?" data-pt="Quanto Custa?">¿Cuánto Cuesta?</span>
+          <i class="ph-bold ph-plus" aria-hidden="true"></i>
+        </button>
+        <div class="faq-a"><div class="faq-a-inner"
+          data-en="Every business is different. That's why we offer a <strong>free audit</strong>: we review your situation, identify the highest-leverage system to install first, and build a custom plan — no commitment, no pressure. You walk away with a roadmap whether you hire us or not."
+          data-es="Cada negocio es diferente. Por eso ofrecemos una <strong>auditoría gratis</strong>: revisamos tu situación, identificamos el sistema de mayor impacto para instalar primero y armamos un plan a tu medida — sin compromiso, sin presión. Te llevas un roadmap nos contrates o no."
+          data-pt="Cada negócio é diferente. Por isso oferecemos uma <strong>auditoria gratuita</strong>: revisamos sua situação, identificamos o sistema de maior impacto para instalar primeiro e montamos um plano sob medida — sem compromisso, sem pressão. Você sai com um roadmap, contrate ou não.">
+          Cada negocio es diferente. Por eso ofrecemos una <strong>auditoría gratis</strong>: revisamos tu situación, identificamos el sistema de mayor impacto para instalar primero y armamos un plan a tu medida — sin compromiso, sin presión. Te llevas un roadmap nos contrates o no.
+        </div></div>
+      </div>
+      <div class="faq-item reveal reveal-d5">
+        <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
+          <span data-en="Do you work in Spanish, Portuguese, and English?" data-es="¿Trabajas En Español, Portugués E Inglés?" data-pt="Você Trabalha Em Espanhol, Português E Inglês?">¿Trabajas En Español, Portugués E Inglés?</span>
+          <i class="ph-bold ph-plus" aria-hidden="true"></i>
+        </button>
+        <div class="faq-a"><div class="faq-a-inner"
+          data-en="<strong>Yes.</strong> I serve clients across the US and Latin America in <strong>English, Spanish, and Portuguese</strong>. Sites, ads, content, and AI agents — all built in your customer's language. Cross-border, multi-market, one team."
+          data-es="<strong>Sí.</strong> Atiendo clientes en EE.UU. y América Latina en <strong>inglés, español y portugués</strong>. Sitios, anuncios, contenido y agentes IA — todo construido en el idioma de tu cliente. Cross-border, multi-mercado, un solo equipo."
+          data-pt="<strong>Sim.</strong> Atendo clientes nos EUA e na América Latina em <strong>inglês, espanhol e português</strong>. Sites, anúncios, conteúdo e agentes de IA — tudo construído no idioma do seu cliente. Cross-border, multi-mercado, um único time.">
+          <strong>Sí.</strong> Atiendo clientes en EE.UU. y América Latina en <strong>inglés, español y portugués</strong>. Sitios, anuncios, contenido y agentes IA — todo construido en el idioma de tu cliente. Cross-border, multi-mercado, un solo equipo.
+        </div></div>
       </div>
     </div>
   </div>
 </section>
 
 <!-- CONTACT -->
-<section id="contact" class="sec">
+<section id="contact" class="sec" aria-labelledby="contact-title">
   <div class="sec-inner">
     <div class="contact-grid">
       <div class="contact-left reveal">
-        <p class="sec-label" data-en="Get In Touch" data-es="Contáctame" data-pt="Entre em Contato">Contáctame</p>
-        <h2 data-en="Let's Build Something <span>Great</span>" data-es="Construyamos Algo <span>Grande</span>" data-pt="Vamos Construir Algo <span>Grande</span>">Construyamos Algo <span>Grande</span></h2>
-        <div class="sec-line"></div>
-        <p data-en="Ready to take your business to the next level? Book a free consultation and let's talk about your goals."
-           data-es="¿Listo para llevar tu negocio al siguiente nivel? Agenda una consulta gratuita y hablemos de tus metas."
-           data-pt="Pronto para levar seu negócio ao próximo nível? Agende uma consulta gratuita e vamos falar sobre seus objetivos.">
-          ¿Listo para llevar tu negocio al siguiente nivel? Agenda una consulta gratuita y hablemos de tus metas.
+        <span class="sec-eyebrow" data-en="Free 30-Minute Audit" data-es="Auditoría Gratis De 30 Minutos" data-pt="Auditoria Grátis De 30 Minutos">Auditoría Gratis De 30 Minutos</span>
+        <h2 class="sec-title" id="contact-title"
+            data-en="Let's Map Out Your <span class='accent'>Next 90 Days</span>"
+            data-es="Diseñemos Tus <span class='accent'>Próximos 90 Días</span>"
+            data-pt="Vamos Mapear Seus <span class='accent'>Próximos 90 Dias</span>">
+          Diseñemos Tus <span class="accent">Próximos 90 Días</span>
+        </h2>
+        <div class="sec-rule"></div>
+        <p data-en="Book a 30-minute call. I'll show you <strong>exactly where AI + marketing can multiply your revenue</strong> in the next 90 days — no fluff, no pressure, no obligation. You walk away with a clear roadmap whether we work together or not."
+           data-es="Agenda 30 minutos. Te muestro <strong>exactamente dónde IA + marketing pueden multiplicar tus ingresos</strong> en los próximos 90 días — sin humo, sin presión, sin compromiso. Te llevas un roadmap claro trabajemos juntos o no."
+           data-pt="Agende 30 minutos. Vou te mostrar <strong>exatamente onde IA + marketing podem multiplicar sua receita</strong> nos próximos 90 dias — sem enrolação, sem pressão, sem compromisso. Você sai com um roadmap claro trabalhando juntos ou não.">
+          Agenda 30 minutos. Te muestro <strong>exactamente dónde IA + marketing pueden multiplicar tus ingresos</strong> en los próximos 90 días — sin humo, sin presión, sin compromiso. Te llevas un roadmap claro trabajemos juntos o no.
         </p>
         <div class="cinfo-item">
-          <div class="cinfo-icon"><i class="fas fa-phone"></i></div>
+          <div class="cinfo-icon" aria-hidden="true"><i class="ph ph-phone"></i></div>
           <div class="cinfo-text">
             <h4 data-en="Phone" data-es="Teléfono" data-pt="Telefone">Teléfono</h4>
-            <p>239-310-2025</p>
+            <p><a href="tel:+12393102025">239-310-2025</a></p>
           </div>
         </div>
         <div class="cinfo-item">
-          <div class="cinfo-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div class="cinfo-icon" aria-hidden="true"><i class="ph ph-map-pin"></i></div>
           <div class="cinfo-text">
             <h4 data-en="Address" data-es="Dirección" data-pt="Endereço">Dirección</h4>
             <p>400 N Tampa ST, Tampa FL</p>
           </div>
         </div>
         <div class="cinfo-item">
-          <div class="cinfo-icon"><i class="fab fa-instagram"></i></div>
+          <div class="cinfo-icon" aria-hidden="true"><i class="ph ph-instagram-logo"></i></div>
           <div class="cinfo-text">
-            <h4>Social Media</h4>
-            <p>@i_launch_u</p>
+            <h4>Instagram</h4>
+            <p><a href="https://instagram.com/i_launch_u" target="_blank" rel="noopener">@i_launch_u</a></p>
           </div>
         </div>
-        <div class="social-row">
-          <a href="https://instagram.com/i_launch_u" target="_blank" class="s-link"><i class="fab fa-instagram"></i></a>
-          <a href="#" class="s-link"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="s-link"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#" class="s-link"><i class="fab fa-tiktok"></i></a>
+        <div class="cinfo-item">
+          <div class="cinfo-icon" aria-hidden="true"><i class="ph ph-envelope"></i></div>
+          <div class="cinfo-text">
+            <h4>Email</h4>
+            <p><a href="mailto:david@ilaunchyou.com">david@ilaunchyou.com</a></p>
+          </div>
+        </div>
+        <div class="social-row" aria-label="Social media links">
+          <a href="https://instagram.com/i_launch_u" target="_blank" rel="noopener" class="s-link" aria-label="Instagram">
+            <i class="ph ph-instagram-logo" aria-hidden="true"></i>
+          </a>
+          <a href="mailto:david@ilaunchyou.com" class="s-link" aria-label="Email">
+            <i class="ph ph-envelope" aria-hidden="true"></i>
+          </a>
+          <a href="https://wa.me/12393102025" target="_blank" rel="noopener" class="s-link" aria-label="WhatsApp">
+            <i class="ph ph-whatsapp-logo" aria-hidden="true"></i>
+          </a>
         </div>
       </div>
-      <div class="contact-form-wrap reveal reveal-d2">
-        <form onsubmit="submitForm(event)">
-          <div class="form-row">
-            <div class="fg"><input type="text" placeholder="Tu nombre" required data-placeholder-en="Your name" data-placeholder-es="Tu nombre" data-placeholder-pt="Seu nome"/></div>
-            <div class="fg"><input type="email" placeholder="Tu correo" required data-placeholder-en="Your email" data-placeholder-es="Tu correo" data-placeholder-pt="Seu e-mail"/></div>
+      <div class="reveal reveal-d2">
+        <div class="form-wrap" id="formContainer">
+          <div class="form-fields">
+            <form onsubmit="submitForm(event)" novalidate>
+              <div class="form-row">
+                <div class="fgroup" id="fg-name">
+                  <input type="text" id="inp-name" required autocomplete="name"
+                         data-placeholder-en="Your name" data-placeholder-es="Tu nombre" data-placeholder-pt="Seu nome"/>
+                  <label for="inp-name" data-en="Your name" data-es="Tu nombre" data-pt="Seu nome">Tu nombre</label>
+                </div>
+                <div class="fgroup" id="fg-email">
+                  <input type="email" id="inp-email" required autocomplete="email"
+                         data-placeholder-en="Your email" data-placeholder-es="Tu correo" data-placeholder-pt="Seu e-mail"/>
+                  <label for="inp-email" data-en="Your email" data-es="Tu correo" data-pt="Seu e-mail">Tu correo</label>
+                </div>
+              </div>
+              <div class="fgroup" id="fg-phone">
+                <input type="tel" id="inp-phone" autocomplete="tel"
+                       data-placeholder-en="Your phone" data-placeholder-es="Tu teléfono" data-placeholder-pt="Seu telefone"/>
+                <label for="inp-phone" data-en="Your phone" data-es="Tu teléfono" data-pt="Seu telefone">Tu teléfono</label>
+              </div>
+              <div class="fgroup textarea-group" id="fg-msg">
+                <textarea id="inp-msg"
+                          data-placeholder-en="What's your #1 bottleneck right now?" data-placeholder-es="¿Cuál es tu cuello de botella #1 ahora mismo?" data-placeholder-pt="Qual é seu gargalo #1 agora?"></textarea>
+                <label for="inp-msg" data-en="What's your #1 bottleneck right now?" data-es="¿Cuál es tu cuello de botella #1 ahora mismo?" data-pt="Qual é seu gargalo #1 agora?">¿Cuál es tu cuello de botella #1 ahora mismo?</label>
+              </div>
+              <button type="submit" class="btn-primary" id="submitBtn"
+                      data-en="Book My Free Audit" data-es="Reservar Mi Auditoría Gratis" data-pt="Reservar Minha Auditoria Grátis">
+                <i class="ph-bold ph-sparkle" aria-hidden="true"></i>
+                Reservar Mi Auditoría Gratis
+              </button>
+              <p class="form-trust">
+                <i class="ph-fill ph-lock"></i>
+                <span data-en="Your info stays private. We respond in under 24 hours." data-es="Tu información se mantiene privada. Respondemos en menos de 24 horas." data-pt="Suas informações ficam privadas. Respondemos em menos de 24 horas.">Tu información se mantiene privada. Respondemos en menos de 24 horas.</span>
+              </p>
+            </form>
           </div>
-          <div class="fg"><input type="tel" placeholder="Tu teléfono" data-placeholder-en="Your phone" data-placeholder-es="Tu teléfono" data-placeholder-pt="Seu telefone"/></div>
-          <div class="fg"><textarea placeholder="¿Cómo puedo ayudarte?" data-placeholder-en="How can I help you?" data-placeholder-es="¿Cómo puedo ayudarte?" data-placeholder-pt="Como posso ajudá-lo?"></textarea></div>
-          <button type="submit" class="btn-gold" style="width:100%;justify-content:center;" id="submitBtn" data-en="Send Message" data-es="Enviar Mensaje" data-pt="Enviar Mensagem">Enviar Mensaje</button>
-        </form>
+          <div class="success-state" aria-live="polite">
+            <i class="ph-fill ph-check-circle" aria-hidden="true"></i>
+            <p data-en="Locked in. I'll get back to you within 24 hours with your audit slot."
+               data-es="¡Listo! Me pondré en contacto contigo en menos de 24 horas con tu cita."
+               data-pt="Pronto! Entrarei em contato em menos de 24 horas com sua sessão.">
+              ¡Listo! Me pondré en contacto contigo en menos de 24 horas con tu cita.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
+<!-- STICKY MOBILE CTA -->
+<div class="mobile-cta" aria-label="Quick action">
+  <a href="#contact"
+     data-en="Book My Free Audit →"
+     data-es="Reservar Auditoría Gratis →"
+     data-pt="Reservar Auditoria Grátis →">
+    <i class="ph-bold ph-sparkle"></i>
+    Reservar Auditoría Gratis →
+  </a>
+</div>
+
 <!-- FOOTER -->
-<footer>
-  <div class="f-logo">I Launch U</div>
-  <p data-en="© 2025 <span>David Medina</span>. All rights reserved." data-es="© 2025 <span>David Medina</span>. Todos los derechos reservados." data-pt="© 2025 <span>David Medina</span>. Todos os direitos reservados.">© 2025 <span>David Medina</span>. Todos los derechos reservados.</p>
+<footer role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="footer-logo">
+        <div class="footer-logo-icon" aria-hidden="true">
+          <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M60 22 C64 26 67 32 67 42 L67 58 L53 58 L53 36 C53 30 56 25 60 22 Z" fill="white"/>
+            <circle cx="60" cy="38" r="3.2" fill="#F58A1F"/>
+            <path d="M53 48 L45 58 L53 58 Z" fill="white"/>
+            <path d="M67 48 L75 58 L67 58 Z" fill="white"/>
+            <rect x="53" y="58" width="14" height="3" fill="white"/>
+          </svg>
+        </div>
+        <span class="footer-logo-text">I Launch U</span>
+      </div>
+      <p class="footer-tagline"
+         data-en="AI + marketing systems that scale businesses to 7 figures — installed for you by a founder who did it himself."
+         data-es="Sistemas de IA + marketing que escalan negocios a 7 cifras — instalados por un fundador que lo hizo él mismo."
+         data-pt="Sistemas de IA + marketing que escalam negócios a 7 dígitos — instalados por um fundador que fez isso ele mesmo.">
+        Sistemas de IA + marketing que escalan negocios a 7 cifras — instalados por un fundador que lo hizo él mismo.
+      </p>
+    </div>
+    <div class="footer-col">
+      <h4 data-en="Explore" data-es="Explora" data-pt="Explore">Explora</h4>
+      <ul>
+        <li><a href="#about" data-en="About" data-es="Sobre Mí" data-pt="Sobre Mim">Sobre Mí</a></li>
+        <li><a href="#ai" data-en="AI Edge" data-es="Ventaja IA" data-pt="Vantagem IA">Ventaja IA</a></li>
+        <li><a href="#services" data-en="Services" data-es="Servicios" data-pt="Serviços">Servicios</a></li>
+        <li><a href="#portfolio" data-en="Portfolio" data-es="Portfolio" data-pt="Portfólio">Portfolio</a></li>
+        <li><a href="#testimonials" data-en="Results" data-es="Resultados" data-pt="Resultados">Resultados</a></li>
+        <li><a href="#faq" data-en="FAQ" data-es="FAQ" data-pt="FAQ">FAQ</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4 data-en="Services" data-es="Servicios" data-pt="Serviços">Servicios</h4>
+      <ul>
+        <li><a href="#services" data-en="AI Systems" data-es="Sistemas IA" data-pt="Sistemas IA">Sistemas IA</a></li>
+        <li><a href="#services" data-en="Meta Ads" data-es="Meta Ads" data-pt="Meta Ads">Meta Ads</a></li>
+        <li><a href="#services" data-en="Google Ads" data-es="Google Ads" data-pt="Google Ads">Google Ads</a></li>
+        <li><a href="#services" data-en="Website + SEO" data-es="Sitio Web + SEO" data-pt="Site + SEO">Sitio Web + SEO</a></li>
+        <li><a href="#services" data-en="Content" data-es="Contenido" data-pt="Conteúdo">Contenido</a></li>
+        <li><a href="#services" data-en="Video + Photo" data-es="Video + Foto" data-pt="Vídeo + Foto">Video + Foto</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4 data-en="Contact" data-es="Contacto" data-pt="Contato">Contacto</h4>
+      <div class="footer-contact-item">
+        <i class="ph ph-phone" aria-hidden="true"></i>
+        <a href="tel:+12393102025">239-310-2025</a>
+      </div>
+      <div class="footer-contact-item">
+        <i class="ph ph-envelope" aria-hidden="true"></i>
+        <a href="mailto:david@ilaunchyou.com">david@ilaunchyou.com</a>
+      </div>
+      <div class="footer-contact-item">
+        <i class="ph ph-map-pin" aria-hidden="true"></i>
+        <span>400 N Tampa ST, Tampa FL</span>
+      </div>
+      <div class="footer-contact-item">
+        <i class="ph ph-instagram-logo" aria-hidden="true"></i>
+        <a href="https://instagram.com/i_launch_u" target="_blank" rel="noopener">@i_launch_u</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="footer-copy"
+       data-en="© 2026 <span>David Medina</span> · I Launch U · All rights reserved."
+       data-es="© 2026 <span>David Medina</span> · I Launch U · Todos los derechos reservados."
+       data-pt="© 2026 <span>David Medina</span> · I Launch U · Todos os direitos reservados.">
+      © 2026 <span>David Medina</span> · I Launch U · Todos los derechos reservados.
+    </p>
+    <div class="footer-social" aria-label="Social media">
+      <a href="https://instagram.com/i_launch_u" target="_blank" rel="noopener" class="s-link" aria-label="Instagram">
+        <i class="ph ph-instagram-logo" aria-hidden="true"></i>
+      </a>
+      <a href="mailto:david@ilaunchyou.com" class="s-link" aria-label="Email">
+        <i class="ph ph-envelope" aria-hidden="true"></i>
+      </a>
+      <a href="https://wa.me/12393102025" target="_blank" rel="noopener" class="s-link" aria-label="WhatsApp">
+        <i class="ph ph-whatsapp-logo" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
 </footer>
 
 <script>
-// NAVBAR
-window.addEventListener('scroll',()=>document.getElementById('nav').classList.toggle('scrolled',scrollY>60));
-
-// MOBILE MENU
-function toggleMenu(){document.getElementById('mmenu').classList.toggle('open');}
-
-// LANGUAGE
-let lang='es';
-function setLang(l){
-  lang=l;
-  document.querySelectorAll('.lbtn').forEach(b=>b.classList.toggle('active',b.textContent.toLowerCase()===l));
-  document.querySelectorAll('[data-'+l+']').forEach(el=>{
-    const v=el.getAttribute('data-'+l);
-    if(!v)return;
-    if(el.tagName==='INPUT'||el.tagName==='TEXTAREA'){el.placeholder=el.getAttribute('data-placeholder-'+l)||v;}
-    else{el.innerHTML=v;}
-  });
-  document.querySelectorAll('[data-placeholder-'+l+']').forEach(el=>{el.placeholder=el.getAttribute('data-placeholder-'+l);});
+// ── SCROLL PROGRESS ──
+const progressBar = document.getElementById('progress-bar');
+function updateProgress() {
+  const scrollTop = window.scrollY;
+  const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+  progressBar.style.width = pct + '%';
 }
 
-// TYPEWRITER
-const phrases={
-  en:['Business Coach','Marketing Strategist','Brand Builder','Your Success Partner'],
-  es:['Business Coach','Estratega de Marketing','Constructor de Marcas','Tu Socio de Éxito'],
-  pt:['Coach de Negócios','Estrategista de Marketing','Construtor de Marcas','Seu Parceiro de Sucesso']
-};
-let ti=0,ci=0,del=false,tw=document.getElementById('typewriter');
-function type(){
-  const arr=phrases[lang]||phrases.es;
-  const cur=arr[ti%arr.length];
-  if(!del){
-    tw.textContent=cur.slice(0,ci+1);
-    ci++;
-    if(ci===cur.length){del=true;setTimeout(type,1800);return;}
-  }else{
-    tw.textContent=cur.slice(0,ci-1);
-    ci--;
-    if(ci===0){del=false;ti++;setTimeout(type,400);return;}
+// ── NAV SCROLL ──
+const nav = document.getElementById('nav');
+function onScroll() {
+  updateProgress();
+  nav.classList.toggle('scrolled', window.scrollY > 60);
+}
+window.addEventListener('scroll', onScroll, { passive: true });
+
+// ── CURSOR GLOW ──
+const cursorGlow = document.getElementById('cursor-glow');
+if (window.matchMedia('(pointer:fine)').matches) {
+  document.addEventListener('mousemove', e => {
+    cursorGlow.style.transform = `translate(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%))`;
+  }, { passive: true });
+} else {
+  cursorGlow.style.display = 'none';
+}
+
+// ── PARTICLE FIELD ──
+(function buildParticles(){
+  const host = document.getElementById('particles');
+  if (!host) return;
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduce) return;
+  const count = window.innerWidth < 768 ? 14 : 28;
+  for (let i = 0; i < count; i++) {
+    const s = document.createElement('span');
+    const left = Math.random() * 100;
+    const dur = 12 + Math.random() * 12;
+    const delay = -Math.random() * dur;
+    const size = 2 + Math.random() * 3;
+    s.style.left = left + '%';
+    s.style.width = size + 'px';
+    s.style.height = size + 'px';
+    s.style.animationDuration = dur + 's';
+    s.style.animationDelay = delay + 's';
+    s.style.opacity = (0.3 + Math.random() * 0.5).toFixed(2);
+    host.appendChild(s);
   }
-  setTimeout(type,del?50:80);
-}
-type();
+})();
 
-// CANVAS PARTICLES
-const canvas=document.getElementById('heroCanvas');
-const ctx=canvas.getContext('2d');
-let W,H,pts=[];
-function resize(){W=canvas.width=window.innerWidth;H=canvas.height=window.innerHeight;initPts();}
-function initPts(){
-  pts=[];
-  const n=Math.min(80,Math.floor(W*H/12000));
-  for(let i=0;i<n;i++)pts.push({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.4,vy:(Math.random()-.5)*.4,r:Math.random()*1.5+.5});
+// ── MOBILE MENU ──
+const hamburger = document.querySelector('.hamburger');
+function toggleMenu() {
+  const m = document.getElementById('mmenu');
+  const open = m.classList.toggle('open');
+  hamburger.setAttribute('aria-expanded', open);
+  document.body.style.overflow = open ? 'hidden' : '';
 }
-function drawPts(){
-  ctx.clearRect(0,0,W,H);
-  pts.forEach(p=>{
-    p.x+=p.vx;p.y+=p.vy;
-    if(p.x<0||p.x>W)p.vx*=-1;
-    if(p.y<0||p.y>H)p.vy*=-1;
-    ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
-    ctx.fillStyle='rgba(245,166,35,0.6)';ctx.fill();
+
+// ── LANGUAGE SYSTEM ──
+let lang = 'es';
+function setLang(l) {
+  lang = l;
+  document.querySelectorAll('.lbtn').forEach(b => {
+    const active = b.textContent.toLowerCase() === l;
+    b.classList.toggle('active', active);
+    b.setAttribute('aria-pressed', active ? 'true' : 'false');
   });
-  for(let i=0;i<pts.length;i++){
-    for(let j=i+1;j<pts.length;j++){
-      const dx=pts[i].x-pts[j].x,dy=pts[i].y-pts[j].y,d=Math.sqrt(dx*dx+dy*dy);
-      if(d<120){
-        ctx.beginPath();ctx.moveTo(pts[i].x,pts[i].y);ctx.lineTo(pts[j].x,pts[j].y);
-        ctx.strokeStyle=`rgba(245,166,35,${.3*(1-d/120)})`;ctx.lineWidth=.5;ctx.stroke();
-      }
+  document.querySelectorAll('[data-' + l + ']').forEach(el => {
+    const v = el.getAttribute('data-' + l);
+    if (!v) return;
+    if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+      el.placeholder = el.getAttribute('data-placeholder-' + l) || v;
+    } else {
+      el.innerHTML = v;
     }
-  }
-  requestAnimationFrame(drawPts);
+  });
+  document.querySelectorAll('[data-placeholder-' + l + ']').forEach(el => {
+    el.placeholder = el.getAttribute('data-placeholder-' + l);
+  });
+  document.documentElement.lang = l === 'pt' ? 'pt-BR' : l;
+  // Update title for SEO per lang
+  const titles = {
+    en: "David Medina — AI Implementation Expert | I Launch U",
+    es: "David Medina — Experto en Implementación de IA | I Launch U",
+    pt: "David Medina — Especialista em Implementação de IA | I Launch U"
+  };
+  if (titles[l]) document.title = titles[l];
 }
-window.addEventListener('resize',resize);
-resize();drawPts();
 
-// SCROLL REVEAL
-const ro=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show');}),{threshold:.1});
-document.querySelectorAll('.reveal').forEach(el=>ro.observe(el));
+// ── FLOATING LABELS ──
+function setupFloatingLabels() {
+  const inputs = document.querySelectorAll('.fgroup input, .fgroup textarea');
+  inputs.forEach(inp => {
+    const group = inp.closest('.fgroup');
+    const checkVal = () => { group.classList.toggle('has-val', inp.value.trim().length > 0); };
+    inp.addEventListener('input', checkVal);
+    inp.addEventListener('blur', checkVal);
+    checkVal();
+  });
+}
+setupFloatingLabels();
 
-// Hero reveal on load
-window.addEventListener('load',()=>{
-  document.querySelectorAll('#hero .reveal').forEach(el=>el.classList.add('show'));
+// ── SCROLL REVEAL ──
+const revealObserver = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('show');
+      revealObserver.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
+document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+// ── ANIMATED COUNTERS (hero stats) ──
+const counterObserver = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (!e.isIntersecting) return;
+    const el = e.target;
+    const target = parseFloat(el.getAttribute('data-count'));
+    const text = el.textContent.trim();
+    const prefix = text.match(/^[^0-9]*/)[0];
+    const suffix = text.match(/[^0-9]*$/)[0];
+    let cur = 0;
+    const step = target / 30;
+    const tick = () => {
+      cur += step;
+      if (cur >= target) { cur = target; el.textContent = prefix + Math.round(cur) + suffix; return; }
+      el.textContent = prefix + Math.round(cur) + suffix;
+      requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+    counterObserver.unobserve(el);
+  });
+}, { threshold: 0.4 });
+document.querySelectorAll('[data-count]').forEach(el => counterObserver.observe(el));
+
+// ── SERVICES CARD 3D TILT ──
+document.querySelectorAll('.svc-card, .ai-pillar').forEach(card => {
+  card.addEventListener('mousemove', e => {
+    const r = card.getBoundingClientRect();
+    const x = (e.clientX - r.left) / r.width - 0.5;
+    const y = (e.clientY - r.top) / r.height - 0.5;
+    card.style.transform = `translateY(-8px) perspective(700px) rotateX(${-y * 5}deg) rotateY(${x * 5}deg)`;
+  });
+  card.addEventListener('mouseleave', () => { card.style.transform = ''; });
 });
 
-// COUNTERS
-const co=new IntersectionObserver(entries=>entries.forEach(e=>{
-  if(e.isIntersecting){
-    const el=e.target,target=+el.getAttribute('data-target'),dur=2000;
-    let start=null;
-    function step(ts){
-      if(!start)start=ts;
-      const p=Math.min((ts-start)/dur,1);
-      el.textContent=Math.floor(p*p*(3-2*p)*target);
-      if(p<1)requestAnimationFrame(step);else el.textContent=target;
-    }
-    requestAnimationFrame(step);
-    co.unobserve(el);
+// ── FAQ ACCORDION ──
+function toggleFaq(btn) {
+  const item = btn.closest('.faq-item');
+  const ans = item.querySelector('.faq-a');
+  const open = item.classList.toggle('open');
+  btn.setAttribute('aria-expanded', open);
+  if (open) {
+    ans.style.maxHeight = ans.scrollHeight + 'px';
+  } else {
+    ans.style.maxHeight = '0';
   }
-}),{threshold:.1,rootMargin:'0px 0px -50px 0px'});
-document.querySelectorAll('.stat-num[data-target]').forEach(el=>co.observe(el));
-// Also trigger on load if already visible
-window.addEventListener('load',()=>{
-  document.querySelectorAll('.stat-num[data-target]').forEach(el=>{
-    const rect=el.getBoundingClientRect();
-    if(rect.top<window.innerHeight){
-      const target=+el.getAttribute('data-target'),dur=2000;
-      let start=null;
-      function step(ts){if(!start)start=ts;const p=Math.min((ts-start)/dur,1);el.textContent=Math.floor(p*p*(3-2*p)*target);if(p<1)requestAnimationFrame(step);else el.textContent=target;}
-      requestAnimationFrame(step);
-      co.unobserve(el);
-    }
-  });
-});
+}
 
-// FORM
-function submitForm(e){
+// ── FORM SUBMISSION ──
+// GHL inbound webhook (I Launch U Sales pipeline → New Lead stage).
+const GHL_WEBHOOK_URL = '';
+function submitForm(e) {
   e.preventDefault();
-  // Fire Facebook Pixel Lead event (client-side)
-  if(typeof fbq !== 'undefined'){
-    fbq('track', 'Lead', {
-      content_name: 'Contact Form',
-      content_category: 'Business Coaching'
-    });
+  if (typeof fbq !== 'undefined') {
+    fbq('track', 'Lead', { content_name: 'AI Audit Request', content_category: 'AI Implementation' });
   }
-  // Fire server-side CAPI event (bypasses ad blockers)
-  const name = document.querySelector('#contact input[type=text]')?.value || '';
-  const email = document.querySelector('#contact input[type=email]')?.value || '';
-  const phone = document.querySelector('#contact input[type=tel]')?.value || '';
+  const name    = document.getElementById('inp-name')?.value    || '';
+  const email   = document.getElementById('inp-email')?.value   || '';
+  const phone   = document.getElementById('inp-phone')?.value   || '';
+  const message = document.getElementById('inp-msg')?.value || '';
   fetch('https://ilaunchyou-capi.ilaunchyou.workers.dev/track', {
     method: 'POST',
-    headers: {'Content-Type': 'application/json'},
+    headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      event: 'Lead',
-      name, email, phone,
-      content_name: 'Contact Form',
-      content_category: 'Business Coaching'
+      event: 'Lead', name, email, phone,
+      content_name: 'AI Audit Request',
+      content_category: 'AI Implementation'
     })
-  }).catch(()=>{});
-  // Also fire server-side PageView on load handled separately
-  const btn=document.getElementById('submitBtn');
-  const msgs={en:'Message Sent! ✓',es:'¡Mensaje Enviado! ✓',pt:'Mensagem Enviada! ✓'};
-  btn.textContent=msgs[lang];
-  btn.style.background='linear-gradient(135deg,#28a745,#1e7e34)';
-  setTimeout(()=>{
-    btn.textContent={en:'Send Message',es:'Enviar Mensaje',pt:'Enviar Mensagem'}[lang];
-    btn.style.background='';
+  }).catch(() => {});
+  if (GHL_WEBHOOK_URL) {
+    fetch(GHL_WEBHOOK_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, email, phone, message, source: 'ilaunchyou.com' })
+    }).catch(() => {});
+  }
+  const container = document.getElementById('formContainer');
+  container.classList.add('form-success-active');
+  const successP = container.querySelector('.success-state p');
+  if (successP) {
+    const msgs = {
+      en: "Locked in. I'll get back to you within 24 hours with your audit slot.",
+      es: '¡Listo! Me pondré en contacto contigo en menos de 24 horas con tu cita.',
+      pt: 'Pronto! Entrarei em contato em menos de 24 horas com sua sessão.'
+    };
+    successP.textContent = msgs[lang];
+  }
+  setTimeout(() => {
+    container.classList.remove('form-success-active');
     e.target.reset();
-  },3000);
+    document.querySelectorAll('.fgroup').forEach(g => g.classList.remove('has-val'));
+  }, 5000);
 }
 </script>
 </body>
